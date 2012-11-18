@@ -353,7 +353,7 @@ IMPORTANT : Make sure you read the deployment instructions in README.md.</descri
         <mavenArchetype>
 			<archetypeGroupId>org.jboss.errai.archetypes</archetypeGroupId>
 			<archetypeArtifactId>jboss-errai-kitchensink-archetype</archetypeArtifactId>
-			<archetypeVersion>2.0.0.Final</archetypeVersion>
+			<archetypeVersion>2.1.1.Final</archetypeVersion>
             <!--
 			<archetypeRepository>https://repository.jboss.org/nexus/content/groups/public/</archetypeRepository>
             -->
