@@ -1,21 +1,21 @@
 <project default="install">
 	<target name="help">
 		<echo>
-		REQUIRMENTS:
-		
+		REQUIREMENTS:
+
 		This script requires Ant-Contrib. If missing, it will attempt to download 
 		it from Sourceforge.net for you into this folder.
-		
+
 		COMMANDLINE PARAMS:
-		
+
 		install   - csv list of features to install; if missing, install ALL found features.
-		
+
 		sourceZip - /full/path/to/jboss-tools-update.zip; zip must exist
-		
+
 		targetDir - /full/path/to/an/existing/jbdevstudio/eclipse; folder must exist
-		
+
 		OPTIONAL / MAY BE REQUIRED:
-		
+
 		otherRepos - csv list of local, zipped, or remote update sites from which to install 
 			prereqs (eg., BIRT, Maven); may want these sites: 
 			http://download.jboss.org/jbosstools/updates/target-platform/latest/
@@ -24,9 +24,9 @@
 			http://m2eclipse.sonatype.org/sites/m2e/,\
 			http://m2eclipse.sonatype.org/sites/m2e-extras/,\
 			http://subclipse.tigris.org/update_1.6.x
-			
+
 		RUNNING THIS SCRIPT:
-		
+
 		/path/to/eclipse-dir/eclipse -consolelog -nosplash -data /tmp \
       		-application org.eclipse.ant.core.antRunner \
       		-f /path/to/installJBossTools.xml \
