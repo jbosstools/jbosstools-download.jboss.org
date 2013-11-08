@@ -48,7 +48,7 @@ Installable Units:
     <echo>
     COMMANDLINE PARAMS:
 
-    install   - csv list of features to install (without spaces); if missing, install ALL found features.
+    install   - csv list of features or feature.groups to install (without spaces); if missing, install ALL found features.
 
     sourceZip - /full/path/to/jbosstools-Update-*.zip; zip must exist
 
