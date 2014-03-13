@@ -5,11 +5,10 @@
       org.eclipse.equinox.launcher.Main -consoleLog -nosplash -data /tmp \
       -application org.eclipse.ant.core.antRunner -f build.xml
   -->
-  <property name="LONGNAME" value="BIRT (Chart + WTP support only)"/>
-  <property name="version" value="4.4.0.v20140311-1438"/>
-  <!-- <property name="URL" value="http://download.eclipse.org/birt/update-site/4.2-interim/" /> -->
-  <!-- <property name="URL" value="http://download.eclipse.org/birt/update-site/4.2/" /> -->
-  <property name="URL" value="http://download.eclipse.org/birt/update-site/luna-interim/" />
+  <!-- 20140313: new, JBDS-2943 -->
+  <property name="LONGNAME" value="m2eclipse-egit"/>
+  <property name="version" value="0.14.0.201401060023"/>
+  <property name="URL" value="http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-egit/0.14.0/N/${version}" />
   <property name="latestversiononly" value="false"/>
 
   <property name="destination" value="${basedir}"/>
@@ -24,12 +23,6 @@
       </source>
 
       <slicingOptions includeFeatures="true" followStrict="true" latestversiononly="${latestversiononly}"/>
-
-      <iu id="org.eclipse.birt.osgi.runtime.sdk.feature.group" />
-      <iu id="org.eclipse.birt.feature.group" />
-      <iu id="org.eclipse.birt.integration.wtp.feature.group" />
-      <iu id="org.eclipse.birt.chart.feature.group" />
-      <iu id="org.eclipse.birt.chart.integration.wtp.feature.group" />
     </p2.mirror>
     <ant antfile="${destination}/../remove.references.xml" target="remove.references"/>
   </target>
