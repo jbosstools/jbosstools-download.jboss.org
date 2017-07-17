@@ -17,7 +17,7 @@
   <property name="workDir" value="${destination}/${version}"/>
 
   <target name="run">
-    <p2.mirror>
+    <p2.mirror references="false">
       <repository location="file:${workDir}" name="${LONGNAME} ${version}" format="http://download.jboss.org/jbosstools/updates/requirements/_FORMAT_TEMPLATE_"/>
       <source>
         <repository location="${URL}" />
