@@ -347,7 +347,7 @@
         </description>
 		<size>9046</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/richfaces-examples/richfaces-simpleapp.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/richfaces-examples/richfaces-simpleapp.zip
         </url>
 		<importType>maven</importType>
         <icon path="icons/jboss.png" />           
@@ -384,7 +384,7 @@
 		</description>
 		<size>16441344</size>
 		<url>
-        http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/photoalbum-mavenized.zip
+        https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/photoalbum-mavenized.zip
 		</url>
         <importType>maven</importType>
         <icon path="icons/jboss.png" />          
@@ -431,7 +431,7 @@
         <importType>maven</importType>
         <icon path="icons/jboss.png" />  
 		<url>
-        http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/booking-mavenized.zip
+        https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/booking-mavenized.zip
 		</url>
 		<fixes>
         <fix type="wtpruntime">
@@ -480,7 +480,7 @@
         </description>
 		<size>196608</size>
 		<url>
-        http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/booking-mavenized-2.1.1.zip
+        https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/booking-mavenized-2.1.1.zip
 		</url>
         <importType>maven</importType>
         <icon path="icons/jboss.png" />  
@@ -528,7 +528,7 @@
         </description>
 		<size>16939</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/resteasy-examples/resteasySimple.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/resteasy-examples/resteasySimple.zip
         </url>
         <importType>maven</importType>
         <icon path="icons/jboss.png" />          

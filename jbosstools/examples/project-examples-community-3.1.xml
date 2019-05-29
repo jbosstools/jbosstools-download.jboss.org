@@ -11,7 +11,7 @@ It includes the registration,registration-ejb,registration-ear,registration-test
 </description>
 		<size>31657984</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/registration.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/registration.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -47,7 +47,7 @@ It includes a tutorial.
 </description>
 		<size>8450048</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/registration2.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/registration2.zip
 		</url>
 		<welcome type="cheatsheets" url="/registration/cheatsheets/registration.xml"/>
 		<fixes>
@@ -80,7 +80,7 @@ It includes a tutorial.
 </description>
 		<size>7680000</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/messages.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/messages.zip
 		</url>
 		<welcome type="cheatsheets" url="/messages/cheatsheets/messages.xml"/>
 		<fixes>
@@ -114,7 +114,7 @@ It includes a tutorial.
 </description>
 		<size>2183168</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/todo.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/todo.zip
 		</url>
 		<welcome type="cheatsheets" url="/todo/cheatsheets/todo.xml"/>
 		<fixes>
@@ -148,7 +148,7 @@ It includes a tutorial.
 </description>
 		<size>2203648</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/numberguess.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/numberguess.zip
 		</url>
 		<welcome type="cheatsheets" url="/numberguess/cheatsheets/numberguess.xml"/>
 		<fixes>
@@ -182,7 +182,7 @@ Requires JBoss Enterprise Application Platform 4.3/JBoss Application Server 4.2.
 </description>
 		<size>196608</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/booking-mavenized-2.1.1.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/booking-mavenized-2.1.1.zip
 		</url>
 
 		<fixes>
@@ -230,7 +230,7 @@ It includes the booking, booking-ear,booking-test and booking-ejb projects.
 </description>
 		<size>36036608</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/bookingall3.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/bookingall3.zip
 		</url>
 		<welcome type="cheatsheets" url="/booking/cheatsheets/booking.xml"/>
 		<fixes>
@@ -269,7 +269,7 @@ Requires JBoss Enterprise Application Platform 4.3/JBoss Application Server 4.2.
 		<size>203639</size>
 
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/booking-mavenized.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/booking-mavenized.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -316,7 +316,7 @@ It includes the booking22, booking22-ear,booking22-test and booking22-ejb projec
 </description>
 		<size>38203392</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/booking22.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/booking22.zip
 		</url>
 		<welcome type="cheatsheets" url="/booking22/cheatsheets/booking.xml"/>
 		<fixes>
@@ -354,7 +354,7 @@ The example requires Seam 2.2,JBoss Enterprise Application Platform 4.3/5.0 or J
 		</description>
 		<size>16441344</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/photoalbum-mavenized.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/photoalbum-mavenized.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -393,7 +393,7 @@ The example requires Seam 2.2 and JBoss Enterprise Application Platform 4.3/5.0 
 		</description>
 		<size>25833472</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/photoalbum.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/photoalbum.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -423,7 +423,7 @@ The example requires Seam 2.2 and JBoss Enterprise Application Platform 4.3/5.0 
 		<size>35225600</size>
 
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/dvdstore22.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/dvdstore22.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -458,7 +458,7 @@ Requires m2eclipse and JBoss Enterprise Application Platform 4.3/5.0 or JBoss Ap
 		</description>
 		<size>16939</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/resteasy-examples/resteasySimple.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/resteasy-examples/resteasySimple.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -482,7 +482,7 @@ Requires m2eclipse and JBoss Enterprise Application Platform 4.3/5.0 or JBoss Ap
 		<description>This example demonstrates the use of JBoss JSF Portlet. It runs on JBoss Enterprise Portal Platform 4.3 or JBoss Portal 2.7.x.</description>
 		<size>4000000</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/portlet-examples/testjsfportlet.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/portlet-examples/testjsfportlet.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -502,7 +502,7 @@ Requires m2eclipse and JBoss Enterprise Application Platform 4.3/5.0 or JBoss Ap
 		<description>This example demonstrates the use of JBoss Seam Portlet. It runs on JBoss Enterprise Portal Platform 4.3/JBoss Portal 2.7.x and Seam 2.0.</description>
 		<size>10000000</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/portlet-examples/testseamportlet.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/portlet-examples/testseamportlet.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -527,7 +527,7 @@ Requires m2eclipse and JBoss Enterprise Application Platform 4.3/5.0 or JBoss Ap
 		<description>This example demonstrates the use of JBoss JSF Portlet. It runs on JBoss Enterprise Portal Platform 5.x or on GateIn 3.1.</description>
 		<size>1372160</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/portlet-examples/JSFPortlet.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/portlet-examples/JSFPortlet.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -549,7 +549,7 @@ Requires m2eclipse and JBoss Enterprise Application Platform 4.3/5.0 or JBoss Ap
 		<description>This example demonstrates the use of JBoss JSF Portlet with RichFaces. It runs on JBoss Enterprise Portal Platform 5.x or on GateIn 3.1.</description>
 		<size>7098368</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/portlet-examples/RichFacesPortlet.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/portlet-examples/RichFacesPortlet.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -571,7 +571,7 @@ Requires m2eclipse and JBoss Enterprise Application Platform 4.3/5.0 or JBoss Ap
 		<description>This example demonstrates the use of JBoss JSF Portlet with Seam. It runs on JBoss Enterprise Portal Platform 5.x or on GateIn 3.1.</description>
 		<size>8978432</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/portlet-examples/SeamPortlet.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/portlet-examples/SeamPortlet.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -598,7 +598,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
 Example requires a JBoss Enterprise SOA Platform 5.x runtime.</description>
 		<size>1101025</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/helloworld_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/helloworld_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -620,7 +620,7 @@ Example requires a JBoss Enterprise SOA Platform 5.x runtime.</description>
   classes. Example requires a JBoss Enterprise SOA Platform 5.x runtime.</description>
 		<size>26261</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/helloworld_action_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/helloworld_action_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -646,7 +646,7 @@ NOTE: Before you import this example, please make sure that there is a runtime n
 </description>
 		<size>1132232</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/rcernich/examples/esb/helloworld_mail_eclipse.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/rcernich/examples/esb/helloworld_mail_eclipse.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -671,7 +671,7 @@ NOTE: Before you import this example, please make sure that there is a runtime n
   SOA-P 5.x runtime.</description>
 		<size>16505</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/helloworld_file_action_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/helloworld_file_action_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -694,7 +694,7 @@ NOTE: Before you import this example, please make sure that there is a runtime n
     console. Example requires a JBoss Enterprise SOA Platform 5.x runtime.</description>
 		<size>1120499</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/webservice_consumer1_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/webservice_consumer1_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -716,7 +716,7 @@ NOTE: Before you import this example, please make sure that there is a runtime n
   JBossESB using the SOAPProcessor action. Example requires a JBoss Enterprise SOA Platform 5.x runtime.</description>
 		<size>55269</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/webservice_producer_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/webservice_producer_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -740,7 +740,7 @@ NOTE: Before you import this example, please make sure that there is a runtime n
   the intermediate xml format to the target xml. Example requires a JBoss Enterprise SOA Platform 5.x runtime.</description>
 		<size>19434</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/transform_CSV2XML_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/transform_CSV2XML_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -762,7 +762,7 @@ use of Smooks performing a simple transformation by converting a XML file into
 Java POJOs. Example requires a JBoss Enterprise SOA Platform 5.x runtime.</description>
 		<size>40936</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/transform_XML2POJO_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/transform_XML2POJO_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -791,7 +791,7 @@ Java POJOs. Example requires a JBoss Enterprise SOA Platform 5.x runtime.</descr
   printed to the Java console (message before and after).</description>
 		<size>22071</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/transform_XML2XML_date_manipulation_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/transform_XML2XML_date_manipulation_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -814,7 +814,7 @@ Java POJOs. Example requires a JBoss Enterprise SOA Platform 5.x runtime.</descr
   Example requires a JBoss Enterprise SOA Platform 5.x runtime.</description>
 		<size>19224</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/transform_XML2XML_simple_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/transform_XML2XML_simple_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -837,7 +837,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
 		<size>1087454</size>
 
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/helloworld_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/helloworld_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -859,7 +859,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
   classes.</description>
 		<size>24456</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/helloworld_action_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/helloworld_action_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -884,7 +884,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
   are sent to a JMS queue with actions for processing. Before deploy the project, please change some properties according to the readme.txt file.</description>
 		<size>15140</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/helloworld_file_action_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/helloworld_file_action_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -909,7 +909,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
 		<size>1094434</size>
 
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/webservice_consumer1_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/webservice_consumer1_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -931,7 +931,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
   JBossESB using the SOAPProcessor action.</description>
 		<size>52601</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/webservice_producer_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/webservice_producer_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -954,7 +954,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
   The tranformation is done by configuring Smooks and performing two transformation, one transformation from CSV to an intermediate xml format, and a second transformation from the intermediate xml format to the target xml.</description>
 		<size>18354</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/transform_CSV2XML_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/transform_CSV2XML_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -978,7 +978,7 @@ use of Smooks performing a simple transformation by converting a XML file into
 Java POJOs.</description>
 		<size>33104</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/transform_XML2POJO_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/transform_XML2POJO_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -1009,7 +1009,7 @@ Java POJOs.</description>
 
 		<size>20313</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/transform_XML2XML_date_manipulation_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/transform_XML2XML_date_manipulation_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -1033,7 +1033,7 @@ Java POJOs.</description>
 		<size>18168</size>
 
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/transform_XML2XML_simple_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/transform_XML2XML_simple_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -1055,7 +1055,7 @@ It includes the richfaces-simpleapp project.
 </description>
 		<size>9046</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/richfaces-examples/richfaces-simpleapp.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/richfaces-examples/richfaces-simpleapp.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">

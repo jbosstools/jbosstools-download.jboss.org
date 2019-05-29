@@ -11,7 +11,7 @@ It includes the registration,registration-ejb,registration-ear,registration-test
 </description>
 		<size>31657984</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/registration.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/registration.zip
 		</url>
 	</project>
 	
@@ -28,7 +28,7 @@ It includes a tutorial.
 </description>
 		<size>8450048</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/registration2.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/registration2.zip
 		</url>
 		<welcome type="cheatsheets" url="/registration/cheatsheets/registration.xml"/>
 	</project>
@@ -46,7 +46,7 @@ It includes a tutorial.
 </description>
 		<size>7680000</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/messages.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/messages.zip
 		</url>
 		<welcome type="cheatsheets" url="/messages/cheatsheets/messages.xml"/>
 	</project>
@@ -65,7 +65,7 @@ It includes a tutorial.
 </description>
 		<size>2183168</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/todo.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/todo.zip
 		</url>
 		<welcome type="cheatsheets" url="/todo/cheatsheets/todo.xml"/>
 	</project>
@@ -85,7 +85,7 @@ It includes a tutorial.
 </description>
 		<size>2203648</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/numberguess.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/numberguess.zip
 		</url>
 		<welcome type="cheatsheets" url="/numberguess/cheatsheets/numberguess.xml"/>
 	</project>
@@ -104,7 +104,7 @@ It includes the booking, booking-ear,booking-test and booking-ejb projects.
 </description>
 		<size>36036608</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/bookingall3.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/bookingall3.zip
 		</url>
 		<welcome type="cheatsheets" url="/booking/cheatsheets/booking.xml"/>
 	</project>
@@ -123,7 +123,7 @@ It includes the booking22, booking22-ear,booking22-test and booking22-ejb projec
 </description>
 		<size>38203392</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/booking22.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/booking22.zip
 		</url>
 		<welcome type="cheatsheets" url="/booking22/cheatsheets/booking.xml"/>
 	</project>
@@ -139,7 +139,7 @@ It includes the booking22, booking22-ear,booking22-test and booking22-ejb projec
 		</description>
 		<size>16441344</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/photoalbum-mavenized.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/photoalbum-mavenized.zip
 		</url>
 	</project>
 	
@@ -154,7 +154,7 @@ It includes the booking22, booking22-ear,booking22-test and booking22-ejb projec
 		</description>
 		<size>25833472</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/photoalbum.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/photoalbum.zip
 		</url>
 	</project>
 	
@@ -171,7 +171,7 @@ It includes the booking22, booking22-ear,booking22-test and booking22-ejb projec
 		<size>35225600</size>
 
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/dvdstore22.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/dvdstore22.zip
 		</url>
 	</project>
 </projects>

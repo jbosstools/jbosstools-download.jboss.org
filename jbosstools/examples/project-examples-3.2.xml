@@ -14,7 +14,7 @@
         </description>
         <size>22645</size>
         <url>
-            http://anonsvn.jboss.org/repos/jbosstools/workspace/dflorian/teiid-designer/parts_modelProjectSet.zip
+            https://anonsvn.jboss.org/repos/jbosstools/workspace/dflorian/teiid-designer/parts_modelProjectSet.zip
         </url>
         <fixes>
 			<fix type="wtpruntime">
@@ -40,7 +40,7 @@
         </description>
         <size>22645</size>
         <url>
-            http://anonsvn.jboss.org/repos/jbosstools/workspace/dflorian/teiid-designer/PortfolioWebServiceProject.zip
+            https://anonsvn.jboss.org/repos/jbosstools/workspace/dflorian/teiid-designer/PortfolioWebServiceProject.zip
         </url>
         <perspectiveId>modelerPerspective</perspectiveId>
     </project>
@@ -57,7 +57,7 @@
         </description>
         <size>56033</size>
         <url>
-            http://anonsvn.jboss.org/repos/jbosstools/workspace/jdoyle/teiid-designer/StateServiceExampleProject.zip
+            https://anonsvn.jboss.org/repos/jbosstools/workspace/jdoyle/teiid-designer/StateServiceExampleProject.zip
         </url>
         <fixes>
 		  <fix type="wtpruntime">

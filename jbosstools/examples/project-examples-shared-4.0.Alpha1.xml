@@ -50,7 +50,7 @@ This project is based on the org.jboss.spec.archetypes:jboss-javaee6-webapp-arch
 			<archetypeArtifactId>jboss-javaee6-webapp-archetype</archetypeArtifactId>
 			<archetypeVersion>7.1.1.CR1</archetypeVersion>
             <!--
-            <archetypeRepository>http://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
+            <archetypeRepository>https://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
             <archetypeRepository>http://repository.jboss.org/nexus/content/repositories/releases/</archetypeRepository>
             -->
             <groupId>org.jboss.tools.examples</groupId>
@@ -110,7 +110,7 @@ This project is based on the org.jboss.spec.archetypes:jboss-javaee6-webapp-ear-
 			<archetypeArtifactId>jboss-javaee6-webapp-ear-archetype</archetypeArtifactId>
 			<archetypeVersion>7.1.1.CR1</archetypeVersion>
 			<!--
-            <archetypeRepository>http://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
+            <archetypeRepository>https://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
 			<archetypeRepository>http://repository.jboss.org/nexus/content/repositories/releases/</archetypeRepository>
 			-->
             <groupId>org.jboss.tools.example</groupId>
@@ -168,7 +168,7 @@ This project is based on the org.jboss.aerogear.archetypes:jboss-html5-mobile-ar
 			<archetypeArtifactId>jboss-html5-mobile-archetype</archetypeArtifactId>
 			<archetypeVersion>1.0.0.M5</archetypeVersion>
             <!--
-            <archetypeRepository>http://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
+            <archetypeRepository>https://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
             <archetypeRepository>http://repository.jboss.org/nexus/content/repositories/releases/</archetypeRepository>
             -->
             <groupId>org.jboss.tools.example</groupId>
@@ -224,7 +224,7 @@ This project is based on the org.richfaces.archetypes:richfaces-archetype-kitche
 			<archetypeArtifactId>richfaces-archetype-kitchensink</archetypeArtifactId>
 			<archetypeVersion>4.2.2.Final-2</archetypeVersion>
             <!--
-            <archetypeRepository>http://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
+            <archetypeRepository>https://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
 			<archetypeRepository>http://repository.jboss.org/nexus/content/repositories/releases/</archetypeRepository>
             <archetypeRepository>https://repository.jboss.org/nexus/content/repositories/jboss_releases_staging_profile-048/</archetypeRepository>
 			<archetypeRepository>http://repository.jboss.org/nexus/content/repositories/snapshots/</archetypeRepository>
@@ -360,7 +360,7 @@ This project is based on the org.jboss.errai.archetypes:jboss-errai-kitchensink-
 			<archetypeArtifactId>jboss-errai-kitchensink-archetype</archetypeArtifactId>
 			<archetypeVersion>2.0.0.Final</archetypeVersion>
             <!--
-            <archetypeRepository>http://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
+            <archetypeRepository>https://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
 			<archetypeRepository>https://repository.jboss.org/nexus/content/groups/public/</archetypeRepository>
             -->
             <groupId>org.jboss.tools.example</groupId>

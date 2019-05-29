@@ -56,7 +56,7 @@
     </description>
     <size>9046</size>
     <url>
-      http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/richfaces-examples/richfaces-simpleapp.zip
+      https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/richfaces-examples/richfaces-simpleapp.zip
     </url>
     <importType>maven</importType>
     <icon path="icons/jboss.png" />
@@ -93,7 +93,7 @@
     </description>
     <size>16939</size>
     <url>
-      http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/resteasy-examples/resteasySimple.zip
+      https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/resteasy-examples/resteasySimple.zip
     </url>
     <importType>maven</importType>
     <icon path="icons/jboss.png" />

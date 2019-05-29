@@ -10,7 +10,7 @@ The example demonstrates user login/logout for an application that uses JSF.
 It will create the weld-jsf-login project in your workspace.
 		</description>
 		<size>8192</size>
-		<url>http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/weld-examples/weld-jsf-login-1.0.1.zip</url>
+		<url>https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/weld-examples/weld-jsf-login-1.0.1.zip</url>
 		<fixes>
 			<fix type="wtpruntime">
 				<property name="allowed-types">org.jboss.ide.eclipse.as.runtime.60</property>
@@ -31,7 +31,7 @@ The example demonstrates user login/logout for an application that uses JSF.
 It will create the weld-jsf-login project in your workspace.
 		</description>
 		<size>8192</size>
-		<url>http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/weld-examples/weld-jsf-login-1.1.0.zip</url>
+		<url>https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/weld-examples/weld-jsf-login-1.1.0.zip</url>
 		<fixes>
 			<fix type="wtpruntime">
 				<property name="allowed-types">org.jboss.ide.eclipse.as.runtime.60</property>
@@ -53,7 +53,7 @@ After each attempt, you're told whether your guess was too high or too low.
 It will create the weld-jsf-numberguess project in your workspace.
 		</description>
 		<size>32768</size>
-		<url>http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/weld-examples/weld-jsf-numberguess-1.1.0.zip</url>
+		<url>https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/weld-examples/weld-jsf-numberguess-1.1.0.zip</url>
 		<fixes>
 			<fix type="wtpruntime">
 				<property name="allowed-types">org.jboss.ide.eclipse.as.runtime.60</property>
@@ -75,7 +75,7 @@ and persistence context management is handled by the EJB 3 container.
 It will create the weld-jsf-pastecode project in your workspace.
 		</description>
 		<size>167936</size>
-		<url>http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/weld-examples/weld-jsf-pastecode-1.1.0.zip</url>
+		<url>https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/weld-examples/weld-jsf-pastecode-1.1.0.zip</url>
 		<fixes>
 			<fix type="wtpruntime">
 				<property name="allowed-types">org.jboss.ide.eclipse.as.runtime.60</property>
@@ -96,7 +96,7 @@ state management and dependency injection are handled by JSR-299.
 It will create the weld-jsf-permalink project in your workspace.
 		</description>
 		<size>106496</size>
-		<url>http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/weld-examples/weld-jsf-permalink-1.1.0.zip</url>
+		<url>https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/weld-examples/weld-jsf-permalink-1.1.0.zip</url>
 		<fixes>
 			<fix type="wtpruntime">
 				<property name="allowed-types">org.jboss.ide.eclipse.as.runtime.60</property>
@@ -117,7 +117,7 @@ The translator example will take any sentences you enter, and translate them to 
 It will create the weld-jsf-translator-parent,weld-jsf-translator-ear,weld-jsf-translator-ejb and weld-jsf-translator-war project in your workspace.
 		</description>
 		<size>16384</size>
-		<url>http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/weld-examples/weld-jsf-translator-1.1.0.zip</url>
+		<url>https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/weld-examples/weld-jsf-translator-1.1.0.zip</url>
 		<fixes>
 			<fix type="wtpruntime">
 				<property name="allowed-types">org.jboss.ide.eclipse.as.runtime.60</property>

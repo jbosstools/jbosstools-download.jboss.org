@@ -44,7 +44,7 @@ It includes a persistence unit and some sample persistence and transaction code 
 			<archetypeArtifactId>jboss-javaee6-webapp-archetype</archetypeArtifactId>
 			<archetypeVersion>7.0.2.CR2</archetypeVersion>
             <!--
-            <archetypeRepository>http://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
+            <archetypeRepository>https://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
             -->
             <groupId>org.jboss.tools.examples</groupId>
 			<artifactId>jboss-javaee6-webapp</artifactId>
@@ -98,7 +98,7 @@ It includes a persistence unit and some sample persistence and transaction code 
 			<archetypeArtifactId>jboss-javaee6-webapp-ear-archetype</archetypeArtifactId>
 			<archetypeVersion>7.0.2.CR2</archetypeVersion>
             <!--
-			<archetypeRepository>http://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
+			<archetypeRepository>https://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
 			-->
             <groupId>org.jboss.tools.example</groupId>
 			<artifactId>multi</artifactId>
@@ -253,7 +253,7 @@ It includes a persistence unit and some sample persistence and transaction code 
 			<archetypeVersion>4.2.0.Final</archetypeVersion>
             <!--			
             <archetypeRepository>http://repository.jboss.org/nexus/content/repositories/releases/</archetypeRepository>
-            <archetypeRepository>http://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
+            <archetypeRepository>https://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
 			-->
             <groupId>org.jboss.tools.example</groupId>
 			<artifactId>richfaces-webapp</artifactId>

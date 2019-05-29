@@ -107,7 +107,7 @@ It includes a persistence unit and some sample persistence and transaction code 
 			<archetypeVersion>7.1.1.Beta2</archetypeVersion>
 			<!--
 			<archetypeRepository>http://repository.jboss.org/nexus/content/repositories/releases/</archetypeRepository>
-            <archetypeRepository>http://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
+            <archetypeRepository>https://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
 			-->
             <groupId>org.jboss.tools.example</groupId>
 			<artifactId>multi</artifactId>
@@ -161,7 +161,7 @@ It includes a persistence unit and some sample persistence and transaction code 
 			<archetypeArtifactId>jboss-html5-mobile-archetype</archetypeArtifactId>
 			<archetypeVersion>1.0.0.M4</archetypeVersion>
             <!--
-            <archetypeRepository>http://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
+            <archetypeRepository>https://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
             <archetypeRepository>http://repository.jboss.org/nexus/content/repositories/releases/</archetypeRepository>
             -->
             <groupId>org.jboss.tools.example</groupId>
@@ -345,7 +345,7 @@ Make sure you read the deployment instructions in README.md</description>
 			<archetypeArtifactId>jboss-errai-kitchensink-archetype</archetypeArtifactId>
 			<archetypeVersion>2.0.0.Final</archetypeVersion>
             <!--
-            <archetypeRepository>http://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
+            <archetypeRepository>https://anonsvn.jboss.org/repos/jbosstools/workspace/fred/repositories/snapshot/</archetypeRepository>
 			<archetypeRepository>https://repository.jboss.org/nexus/content/groups/public/</archetypeRepository>
             -->
             <groupId>org.jboss.tools.example</groupId>

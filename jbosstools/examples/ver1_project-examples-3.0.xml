@@ -11,7 +11,7 @@
 		</description>
 		<size>7071000</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/dvdstoreall.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/dvdstoreall.zip
 		</url>
 	</project>
 	
@@ -29,7 +29,7 @@ It includes the booking, booking-ear and booking-ejb projects.
 </description>
 		<size>8127000</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/bookingall.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/bookingall.zip
 		</url>
 	</project>
 	
@@ -47,7 +47,7 @@ Requires m2eclipse >= 0.9.7.20081001-2217
 </description>
 		<size>203639</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/booking-mavenized.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/booking-mavenized.zip
 		</url>
 	</project>
 	
@@ -65,7 +65,7 @@ Requires m2eclipse >= 0.9.7.20081001-2217
 </description>
 		<size>203929</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/booking-mavenized-2.1.1.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/booking-mavenized-2.1.1.zip
 		</url>
 	</project>
 	
@@ -79,7 +79,7 @@ This example can also run in Tomcat with JBoss Embedded.
 </description>
 		<size>5491000</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/jboss-seam-jpa.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/jboss-seam-jpa.zip
 		</url>
 	</project>	
 	
@@ -90,7 +90,7 @@ This example can also run in Tomcat with JBoss Embedded.
 		<description>This example demonstrates the use of JBoss Java Portlet. It runs on JBoss Portal 2.7.0.</description>
 		<size>10000</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/portlet-examples/testjavaportlet.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/portlet-examples/testjavaportlet.zip
 		</url>
 		<welcome type="cheatsheets" url="/testjavaportlet/javaportletcs.xml"/>
 	</project>
@@ -102,7 +102,7 @@ This example can also run in Tomcat with JBoss Embedded.
 		<description>This example demonstrates the use of JBoss JSF Portlet. It runs on JBoss Portal 2.7.0.</description>
 		<size>4000000</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/portlet-examples/testjsfportlet.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/portlet-examples/testjsfportlet.zip
 		</url>
 	</project>
 
@@ -113,7 +113,7 @@ This example can also run in Tomcat with JBoss Embedded.
 		<description>This example demonstrates the use of JBoss Seam Portlet. It runs on JBoss Portal 2.7.0.</description>
 		<size>10000000</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/portlet-examples/testseamportlet.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/portlet-examples/testseamportlet.zip
 		</url>
 	</project>
 	
@@ -125,7 +125,7 @@ This example can also run in Tomcat with JBoss Embedded.
 As well as to demonstrate the needed  minimal files to make a basic ESB component execute.</description>
 		<size>59000</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/helloworld.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/helloworld.zip
 		</url>
 	</project>	
 	
@@ -136,7 +136,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
 		<description>This example is to demonstrate how to invoke the deployed HelloWorld ESB. It requires the helloworld project.</description>
 		<size>1000000</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/helloworld_testclient.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/helloworld_testclient.zip
 		</url>
 	</project>
 	
@@ -149,7 +149,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
   classes.</description>
 		<size>7100</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/helloworld_action.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/helloworld_action.zip
 		</url>
 	</project>
 	
@@ -160,7 +160,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
 		<description>This sample is to test the deployed helloworld_action ESB. It requires the helloworld_action project</description>
 		<size>18694</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/helloworld_action_client.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/helloworld_action_client.zip
 		</url>
 	</project>	
 	
@@ -173,7 +173,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
   are sent to a JMS queue with actions for processing. Before deploy the project, please change some properties according to the readme.txt file.</description>
 		<size>7920</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/helloworld_file_action.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/helloworld_file_action.zip
 		</url>
 	</project>	
 	
@@ -184,7 +184,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
 		<description>This sample is to test the deployed helloworld_file_action ESB. It requires the helloworld_file_action project.</description>
 		<size>18694</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/helloworld_file_action_client.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example/helloworld_file_action_client.zip
 		</url>
 	</project>	
 	<project>
@@ -197,7 +197,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
     console.</description>
 		<size>22500</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/webservice_consumer1.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/webservice_consumer1.zip
 		</url>
 	</project>
 
@@ -208,7 +208,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
 		<description>This sample is to test the deployed a comsumer web service.It requires the webservice_consumer1 project.</description>
 		<size>1000000</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/webservice_consumer1_client.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/webservice_consumer1_client.zip
 		</url>
 	</project>
 
@@ -220,7 +220,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
   JBossESB using the SOAPProcessor action.</description>
 		<size>53000</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/webservice_producer.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/webservice_producer.zip
 		</url>
 	</project>
 
@@ -231,7 +231,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
 		<description>This sample is to test the deployed a web service endpoint.It requires the webservice_producer project.</description>
 		<size>14200</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/webservice_producer_client.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/webservice_producer_client.zip
 		</url>
 	</project>
 
@@ -245,7 +245,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
   the intermediate xml format to the target xml.</description>
 		<size>7200</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/transform_CSV2XML.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/transform_CSV2XML.zip
 		</url>
 	</project>
 
@@ -256,7 +256,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
 		<description>This sample is to test the JBoss ESB smooks CSV->XML transformation.It requires the transform_CSV2XML project.</description>
 		<size>16600</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/transform_CSV2XML_client.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/transform_CSV2XML_client.zip
 		</url>
 	</project>	
 
@@ -269,7 +269,7 @@ use of Smooks performing a simple transformation by converting a XML file into
 Java POJOs.</description>
 		<size>26600</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/transform_XML2POJO.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/transform_XML2POJO.zip
 		</url>
 	</project>
 
@@ -280,7 +280,7 @@ Java POJOs.</description>
 		<description>This sample is to test the JBoss ESB smooks XML->POJO transformation.It requires the transform_XML2POJO project.</description>
 		<size>22400</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/transform_XML2POJO_client.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/transform_XML2POJO_client.zip
 		</url>
 	</project>
 
@@ -300,7 +300,7 @@ Java POJOs.</description>
   printed to the Java console (message before and after).</description>
 		<size>13600</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/transform_XML2XML_date_manipulation.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/transform_XML2XML_date_manipulation.zip
 		</url>
 	</project>
 
@@ -311,7 +311,7 @@ Java POJOs.</description>
 		<description>This sample is to test the JBoss ESB XML->XML date-manipulation transformation.It requires the transform_XML2XML_date_manipulation project.</description>
 		<size>18600</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/transform_XML2XML_date_manipulation_client.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/transform_XML2XML_date_manipulation_client.zip
 		</url>
 	</project>
 
@@ -324,7 +324,7 @@ Java POJOs.</description>
   SampleOrder.xml message and prints the before and after XML to the console.</description>
 		<size>6700</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/transform_XML2XML_simple.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/transform_XML2XML_simple.zip
 		</url>
 	</project>
 
@@ -335,7 +335,7 @@ Java POJOs.</description>
 		<description>This sample is to test the JBoss ESB XML->XML transformation.It requires the transform_XML2XML_simple project.</description>
 		<size>17800</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/transform_XML2XML_simple_client.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/grid/esb-example/transform_XML2XML_simple_client.zip
 		</url>
 	</project>
 	<project>
@@ -346,7 +346,7 @@ Java POJOs.</description>
 		<description>This example contains RichFaces 3.2.2.SP1 Demo Application</description>
 		<size>10640749</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/dgolovin/examples/rf/richfaces-demo.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/dgolovin/examples/rf/richfaces-demo.zip
 		</url>
 	</project>
 	
@@ -362,7 +362,7 @@ Requires m2eclipse >= 0.9.7.20081001-2217. You can install it using the followin
 		</description>
 		<size>16939</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/resteasy-examples/resteasySimple.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/resteasy-examples/resteasySimple.zip
 		</url>
 	</project>
 </projects>

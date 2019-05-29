@@ -9,7 +9,7 @@
 As well as to demonstrate the needed  minimal files to make a basic ESB component execute.</description>
 		<size>1101025</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/helloworld_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/helloworld_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -32,7 +32,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
   classes.</description>
 		<size>26261</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/helloworld_action_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/helloworld_action_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -55,7 +55,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
   are sent to a JMS queue with actions for processing. Before deploy the project, please change some properties according to the readme.txt file.</description>
 		<size>16505</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/helloworld_file_action_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/helloworld_file_action_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -79,7 +79,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
     console.</description>
 		<size>1120499</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/webservice_consumer1_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/webservice_consumer1_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -102,7 +102,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
   JBossESB using the SOAPProcessor action.</description>
 		<size>55269</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/webservice_producer_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/webservice_producer_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -127,7 +127,7 @@ As well as to demonstrate the needed  minimal files to make a basic ESB componen
   the intermediate xml format to the target xml.</description>
 		<size>19434</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/transform_CSV2XML_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/transform_CSV2XML_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -150,7 +150,7 @@ use of Smooks performing a simple transformation by converting a XML file into
 Java POJOs.</description>
 		<size>40936</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/transform_XML2POJO_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/transform_XML2POJO_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -180,7 +180,7 @@ Java POJOs.</description>
   printed to the Java console (message before and after).</description>
 		<size>22071</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/transform_XML2XML_date_manipulation_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/transform_XML2XML_date_manipulation_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -203,7 +203,7 @@ Java POJOs.</description>
   SampleOrder.xml message and prints the before and after XML to the console.</description>
 		<size>19224</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/transform_XML2XML_simple_all.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/Denny/esb-example-soa-p5.0/transform_XML2XML_simple_all.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -229,7 +229,7 @@ It includes the booking22, booking22-ear,booking22-test and booking22-ejb projec
 </description>
 		<size>38203392</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/booking22.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/booking22.zip
 		</url>
 		<welcome type="cheatsheets" url="/booking22/cheatsheets/booking.xml"/>
 		<fixes>
@@ -264,7 +264,7 @@ The example requires Seam 2.2 and JBoss Enterprise Application Platform 4.3/5.0 
 		</description>
 		<size>25833472</size>
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/photoalbum.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/photoalbum.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">
@@ -294,7 +294,7 @@ The example requires Seam 2.2 and JBoss Enterprise Application Platform 4.3/5.0 
 		<size>35225600</size>
 
 		<url>
-			http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/dvdstore22.zip
+			https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/seam-examples/dvdstore22.zip
 		</url>
 		<fixes>
 			<fix type="wtpruntime">

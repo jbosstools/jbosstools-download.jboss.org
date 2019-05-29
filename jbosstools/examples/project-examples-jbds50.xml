@@ -9,7 +9,7 @@ This example demonstrates the use of CDI 1.0 and Servlet 3 in JBoss Enterprise A
 The example can be deployed using Maven from the command line or from Eclipse using JBoss Tools.
 		</description>
 		<size>8192</size>
-		<url>http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/jbossas7-examples/helloworld.zip</url>
+		<url>https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/jbossas7-examples/helloworld.zip</url>
 		<fixes>
 			<fix type="wtpruntime">
 				<property name="allowed-types">org.jboss.ide.eclipse.as.runtime.71, org.jboss.ide.eclipse.as.runtime.eap.60</property>
@@ -56,7 +56,7 @@ This will build, deploy and start the OSGi bundle.
 You will see a Hello AS7 World!! message appear on the console when this is done.
 		</description>
 		<size>8192</size>
-		<url>http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/jbossas7-examples/helloworld-osgi.zip</url>
+		<url>https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/jbossas7-examples/helloworld-osgi.zip</url>
 		<fixes>
 			<fix type="wtpruntime">
 				<property name="allowed-types">org.jboss.ide.eclipse.as.runtime.71, org.jboss.ide.eclipse.as.runtime.eap.60</property>
@@ -98,7 +98,7 @@ This example demonstrates the use of CDI 1.0, JPA 2.0, JTA 1.1, EJB 3.1 and JSF 
 The example can be deployed using Maven from the command line or from Eclipse using JBoss Tools.		
 		</description>
 <size>8192</size>
-		<url>http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/jbossas7-examples/login.zip</url>
+		<url>https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/jbossas7-examples/login.zip</url>
 		<fixes>
 			<fix type="wtpruntime">
 				<property name="allowed-types">org.jboss.ide.eclipse.as.runtime.70, org.jboss.ide.eclipse.as.runtime.71, org.jboss.ide.eclipse.as.runtime.eap.60</property>
@@ -141,7 +141,7 @@ This example demonstrates the use of CDI 1.0 and JSF 2.0 in JBoss Enterprise App
 The example can be deployed using Maven from the command line or from Eclipse using JBoss Tools.
 		</description>
 <size>8192</size>
-		<url>http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/jbossas7-examples/numberguess.zip</url>
+		<url>https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/jbossas7-examples/numberguess.zip</url>
 		<fixes>
 			<fix type="wtpruntime">
 				<property name="allowed-types">org.jboss.ide.eclipse.as.runtime.71, org.jboss.ide.eclipse.as.runtime.eap.60</property>
@@ -185,7 +185,7 @@ This project is setup to allow you to create a compliant Java EE 6 application u
 It includes a persistence unit and some sample persistence and transaction code to help you get your feet wet with database access in enterprise Java.
 		</description>
 <size>8192</size>
-		<url>http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/jbossas7-examples/kitchensink.zip</url>
+		<url>https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/jbossas7-examples/kitchensink.zip</url>
 		<fixes>
 			<fix type="wtpruntime">
 				<property name="allowed-types">org.jboss.ide.eclipse.as.runtime.71, org.jboss.ide.eclipse.as.runtime.eap.60</property>
@@ -225,7 +225,7 @@ It includes a persistence unit and some sample persistence and transaction code 
 		<description>This example demonstrates the use of *CDI 1.0* and *JAX-RS* in *JBoss Application Server 7* using the Plain Old HTML5 (POH5) architecture.
 POH5 is basically a smart, HTML5+CSS3+JavaScript front-end using RESTful services on the backend.</description>
         <size>7266</size>
-		<url>http://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/jbossas7-examples/helloworld-html5.zip</url>
+		<url>https://anonsvn.jboss.org/repos/jbosstools/workspace/snjeza/jbossas7-examples/helloworld-html5.zip</url>
 		<fixes>
 			<fix type="wtpruntime">
 				<property name="allowed-types">org.jboss.ide.eclipse.as.runtime.71, org.jboss.ide.eclipse.as.runtime.eap.60</property>
