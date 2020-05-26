@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project default="runAll">
+<project default="run">
   <!-- run locally in Eclipse (to resolve p2 tasks) using these commandline options:
     java -cp /home/nboldt/eclipse/plugins/org.eclipse.equinox.launcher_*.jar \
       org.eclipse.equinox.launcher.Main -consoleLog -nosplash -data /tmp \
@@ -8,30 +8,20 @@
 
   <property name="LONGNAME" value="eclipsecs"/>
   <property name="version" value="8.7.0.201801131309"/>
-  <!-- <property name="URL" value="http://eclipse-cs.sourceforge.net/update/"/> -->
-  <property name="URL1" value="https://downloads.sourceforge.net/project/eclipse-cs/Eclipse%20Checkstyle%20Plug-in/8.7.0/net.sf.eclipsecs-updatesite_8.7.0.201801131309.zip?r=&amp;ts=1547566654&amp;use_mirror=versaweb"/>
-  <property name="URL2" value="https://sevntu-checkstyle.github.com/sevntu.checkstyle/update-site/"/>
+  <property name="URL" value="http://eclipse-cs.sourceforge.net/update/"/>
 
   <property name="destination" value="${basedir}"/>
   <property name="workDir" value="${destination}/${version}"/>
 
-  <!-- JBDS-4559 sourceforge no longer plays nicely so pull zip instead - may have to download manually if <get> isn't working -->
-  <target name="runAll" depends="fetch,unpack,mirror,regen"/>
-  <target name="run" depends="unpack,mirror,regen"/>
-  <target name="regen"><ant antfile="${destination}/../regen.metadata.xml" target="regen.metadata"/></target>
-  <target name="mirror">
+  <target name="run">
     <p2.mirror>
       <repository location="file:${workDir}" name="${LONGNAME} ${version}" format="http://download.jboss.org/jbosstools/updates/requirements/_FORMAT_TEMPLATE_"/>
       <source>
-        <repository location="${URL2}" />
+        <repository location="${URL}" />
       </source>
       <slicingOptions includeFeatures="true" followStrict="true" latestversiononly="true"/>
     </p2.mirror>
-  </target>
-  <target name="fetch">
-    <get src="${URL1}" dest="net.sf.eclipsecs-updatesite_${version}.zip" verbose="true" usetimestamp="true"/>
-  </target>
-  <target name="unpack">
-    <unzip src="net.sf.eclipsecs-updatesite_${version}.zip" dest="${workDir}"/>
+    <ant antfile="${destination}/../remove.references.xml" target="remove.references"/>
+    <ant antfile="${destination}/../remove.configure.instruction.xml" target="remove.configure.instruction"/>
   </target>
 </project>
