@@ -116,13 +116,13 @@ for fname in filenames:
 #         count +=1
 #         print "[DEBUG] ["+str(count).zfill(3)+"] " + key + " => " + value
 
-# for each group of keys (for a given prod|version) check for correct # of keys - should be 8 keys or more
+# for each group of keys (for a given prod|version) check for correct # of keys - should be 6 keys or more
 countBlock = 0
 for version in sorted(productversions_d.iterkeys()):
     countBlock += 1
     countInner = 0
-    if len(productversions_d[version]) != 8:
-        errMsg = "[ERROR] Expected 8 keys for jboss.*|*|" + version + ", but got: " + str(len(productversions_d[version])) + \
+    if len(productversions_d[version]) != 6 and len(productversions_d[version]) != 8 :
+        errMsg = "[ERROR] Expected 6 or 8 keys for jboss.*|*|" + version + ", but got: " + str(len(productversions_d[version])) + \
             " - check your src/main/ide.config.*-fragment.properties files"
         print errMsg
         for key in sorted(productversions_d[version].iterkeys()):
