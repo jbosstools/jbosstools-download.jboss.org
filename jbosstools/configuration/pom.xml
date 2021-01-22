@@ -26,6 +26,7 @@
 	<properties>
 		<!-- pythonOptions: use -X to enable debugging -->
 		<pythonOptions></pythonOptions>
+		<pythonExecutable>python2</pythonExecutable>
 
 		<versionWithRespin_jbt_PREV_GA>4.5.1.Final</versionWithRespin_jbt_PREV_GA>
 		<versionWithRespin_jbt_PREV>4.5.1.Final</versionWithRespin_jbt_PREV>
@@ -89,7 +90,7 @@ mvn clean verify -DbuildType=staging \
 				<executions>
 					<execution>
 						<configuration>
-							<executable>python</executable>
+							<executable>${pythonExecutable}</executable>
 							<workingDirectory>src/main/</workingDirectory>
 							<arguments>
 								<!-- by default, merge fragments, but don't transform any versions -->
@@ -144,7 +145,7 @@ mvn clean verify -DbuildType=staging \
 						<executions>
 							<execution>
 								<configuration>
-									<executable>python</executable>
+									<executable>${pythonExecutable}</executable>
 									<workingDirectory>src/main/</workingDirectory>
 									<arguments>
 										<argument>ide-config.properties.py</argument>
@@ -197,7 +198,7 @@ mvn clean verify -DbuildType=staging \
 						<executions>
 							<execution>
 								<configuration>
-									<executable>python</executable>
+									<executable>${pythonExecutable}</executable>
 									<workingDirectory>src/main/</workingDirectory>
 									<arguments>
 										<argument>ide-config.properties.py</argument>
@@ -249,7 +250,7 @@ mvn clean verify -DbuildType=staging \
 						<executions>
 							<execution>
 								<configuration>
-									<executable>python</executable>
+									<executable>${pythonExecutable}</executable>
 									<workingDirectory>src/main/</workingDirectory>
 									<arguments>
 										<argument>ide-config.properties.py</argument>
