@@ -1,0 +1,31 @@
+{
+    "timestamp" : 1610604642569,
+    "revision" : {
+        "HEAD" : "c06086ba3800da140f7532cd7e25a6a9e3e2dda3",
+        "currentBranch" : "HEAD",
+        "knownReferences" : [{
+            "name" : "origin",
+            "url" : "git://github.com/jbosstools/jbosstools-build-sites.git",
+            "ref" : "master"
+        }]
+    },
+    "properties" : {
+        "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+        "java.version" : "11.0.8",
+        "user.dir" : "/mnt/hudson_workspace/workspace/jbosstools-build-sites.aggregate.child-sites_master/jdk/openjdk11/label_exp/rhel7-devstudio-releng/projectName/central/sources/aggregate/central-site",
+        "os.arch" : "amd64",
+        "RELEASE" : "null",
+        "BUILD_ALIAS" : "null",
+        "JOB_NAME" : "null",
+        "os.version" : "3.10.0-1062.el7.x86_64",
+        "BUILD_NUMBER" : "null",
+        "TARGET_PLATFORM_VERSION" : "null",
+        "NODE_NAME" : "null",
+        "HOSTNAME" : "rhel7-devstudio-releng-51088",
+        "java.vendor" : "N/A",
+        "os.name" : "Linux",
+        "ZIPSUFFIX" : "null",
+        "WORKSPACE" : "/mnt/hudson_workspace/workspace/jbosstools-build-sites.aggregate.child-sites_master/jdk/openjdk11/label_exp/rhel7-devstudio-releng/projectName/central/sources/aggregate/central-site"
+    },
+    "upstream" : {"http://download.jboss.org/jbosstools/photon/snapshots/updates/core/master/" : "Build info file not accessible: Parser error"}
+}
