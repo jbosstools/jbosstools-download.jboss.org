@@ -1,0 +1,481 @@
+{
+    "timestamp" : 1632402090004,
+    "revision" : {
+        "HEAD" : "90a0953915cc3958f08ddf1f4e6c453607a95de5",
+        "currentBranch" : "HEAD",
+        "knownReferences" : [{
+            "name" : "origin",
+            "url" : "git://github.com/jbosstools/jbosstools-build-sites.git",
+            "ref" : "master"
+        }]
+    },
+    "properties" : {
+        "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+        "java.version" : "11.0.12",
+        "user.dir" : "/jenkins/jbosstools-build-sites.aggregate.site_master",
+        "os.arch" : "amd64",
+        "RELEASE" : "null",
+        "BUILD_ALIAS" : "null",
+        "JOB_NAME" : "jbosstools-build-sites.aggregate.site_master",
+        "os.version" : "3.10.0-1127.el7.x86_64",
+        "BUILD_NUMBER" : "333",
+        "TARGET_PLATFORM_VERSION" : "null",
+        "NODE_NAME" : "null",
+        "HOSTNAME" : "rhel7-releng-407",
+        "java.vendor" : "Red Hat, Inc.",
+        "os.name" : "Linux",
+        "ZIPSUFFIX" : "null",
+        "WORKSPACE" : "/jenkins/jbosstools-build-sites.aggregate.site_master"
+    },
+    "upstream" : {
+        "https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-base_master/latest/all/repo" : {
+            "timestamp" : 1632332742725,
+            "revision" : {
+                "HEAD" : "3e70f04cbcda357e7c832c87902611fb682e6892",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git://github.com/jbosstools/jbosstools-base.git",
+                    "ref" : "master"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "11.0.12",
+                "user.dir" : "/jenkins/jbosstools-base_master",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "jbosstools-base_master",
+                "os.version" : "3.10.0-1127.el7.x86_64",
+                "BUILD_NUMBER" : "235",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "rhel7-releng-273",
+                "java.vendor" : "Red Hat, Inc.",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/jenkins/jbosstools-base_master"
+            }
+        },
+        "https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-server_master/latest/all/repo" : {
+            "timestamp" : 1632349034687,
+            "revision" : {
+                "HEAD" : "28f59207607de74ca68bd94e03027396d819f16d",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git://github.com/jbosstools/jbosstools-server.git",
+                    "ref" : "master"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "11.0.12",
+                "user.dir" : "/jenkins/jbosstools-server_master",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "jbosstools-server_master",
+                "os.version" : "3.10.0-1127.el7.x86_64",
+                "BUILD_NUMBER" : "232",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "rhel7-releng-301",
+                "java.vendor" : "Red Hat, Inc.",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/jenkins/jbosstools-server_master"
+            }
+        },
+        "https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-openshift_master/latest/all/repo" : {
+            "timestamp" : 1632308971484,
+            "revision" : {
+                "HEAD" : "1ffbe8024390ba2ea45b86be33ffe6466e187eb5",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git://github.com/jbosstools/jbosstools-openshift.git",
+                    "ref" : "master"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "11.0.12",
+                "user.dir" : "/jenkins/jbosstools-openshift_master",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "jbosstools-openshift_master",
+                "os.version" : "3.10.0-1127.el7.x86_64",
+                "BUILD_NUMBER" : "255",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "rhel7-releng-94",
+                "java.vendor" : "Red Hat, Inc.",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/jenkins/jbosstools-openshift_master"
+            }
+        },
+        "https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-livereload_master/latest/all/repo" : {
+            "timestamp" : 1631285113094,
+            "revision" : {
+                "HEAD" : "297cdf43c16cd14828f1622475743f7ee0c68d4f",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git://github.com/jbosstools/jbosstools-livereload.git",
+                    "ref" : "master"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "11.0.12",
+                "user.dir" : "/jenkins/jbosstools-livereload_master",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "jbosstools-livereload_master",
+                "os.version" : "3.10.0-1127.el7.x86_64",
+                "BUILD_NUMBER" : "196",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "rhel7-releng-141",
+                "java.vendor" : "Red Hat, Inc.",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/jenkins/jbosstools-livereload_master"
+            }
+        },
+        "https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-jst_master/latest/all/repo" : {
+            "timestamp" : 1631283469502,
+            "revision" : {
+                "HEAD" : "e93886e0a6743d0d304e05c9a7e08ca9c52b089f",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git://github.com/jbosstools/jbosstools-jst.git",
+                    "ref" : "master"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "11.0.12",
+                "user.dir" : "/jenkins/jbosstools-jst_master",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "jbosstools-jst_master",
+                "os.version" : "3.10.0-1127.el7.x86_64",
+                "BUILD_NUMBER" : "198",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "rhel7-releng-149",
+                "java.vendor" : "Red Hat, Inc.",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/jenkins/jbosstools-jst_master"
+            }
+        },
+        "https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-hibernate_master/latest/all/repo" : {
+            "timestamp" : 1632338987044,
+            "revision" : {
+                "HEAD" : "03efa0368d5705c814c4bdcc5f47bc6f9543140f",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git://github.com/jbosstools/jbosstools-hibernate.git",
+                    "ref" : "master"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "11.0.12",
+                "user.dir" : "/jenkins/jbosstools-hibernate_master",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "jbosstools-hibernate_master",
+                "os.version" : "3.10.0-1127.el7.x86_64",
+                "BUILD_NUMBER" : "471",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "rhel7-releng-293",
+                "java.vendor" : "Red Hat, Inc.",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/jenkins/jbosstools-hibernate_master"
+            }
+        },
+        "https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-javaee_master/latest/all/repo" : {
+            "timestamp" : 1631292649740,
+            "revision" : {
+                "HEAD" : "ee5873f18c76be89fd7b4dcbb3ae9aab405fe610",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git://github.com/jbosstools/jbosstools-javaee.git",
+                    "ref" : "master"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "11.0.12",
+                "user.dir" : "/jenkins/jbosstools-javaee_master",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "jbosstools-javaee_master",
+                "os.version" : "3.10.0-1127.el7.x86_64",
+                "BUILD_NUMBER" : "195",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "rhel7-releng-159",
+                "java.vendor" : "Red Hat, Inc.",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/jenkins/jbosstools-javaee_master"
+            }
+        },
+        "https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-webservices_master/latest/all/repo" : {
+            "timestamp" : 1632390316989,
+            "revision" : {
+                "HEAD" : "91c3923f0726c08a6c0eace2483ec0a9a8621e1f",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git://github.com/jbosstools/jbosstools-webservices.git",
+                    "ref" : "master"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "11.0.12",
+                "user.dir" : "/jenkins/jbosstools-webservices_master",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "jbosstools-webservices_master",
+                "os.version" : "3.10.0-1127.el7.x86_64",
+                "BUILD_NUMBER" : "225",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "rhel7-releng-397",
+                "java.vendor" : "Red Hat, Inc.",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/jenkins/jbosstools-webservices_master"
+            }
+        },
+        "https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-vpe_master/latest/all/repo" : {
+            "timestamp" : 1631289103919,
+            "revision" : {
+                "HEAD" : "ddb127cd461d0578f970af61f57cea2bfa7db86f",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git://github.com/jbosstools/jbosstools-vpe.git",
+                    "ref" : "master"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "11.0.12",
+                "user.dir" : "/jenkins/jbosstools-vpe_master",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "jbosstools-vpe_master",
+                "os.version" : "3.10.0-1127.el7.x86_64",
+                "BUILD_NUMBER" : "193",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "rhel7-releng-154",
+                "java.vendor" : "Red Hat, Inc.",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/jenkins/jbosstools-vpe_master"
+            }
+        },
+        "https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-forge_master/latest/all/repo" : {
+            "timestamp" : 1631284091397,
+            "revision" : {
+                "HEAD" : "bb91dab0b9c9a26cbed219502e50f2c22c33e4a7",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git://github.com/jbosstools/jbosstools-forge.git",
+                    "ref" : "master"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "11.0.12",
+                "user.dir" : "/jenkins/jbosstools-forge_master",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "jbosstools-forge_master",
+                "os.version" : "3.10.0-1127.el7.x86_64",
+                "BUILD_NUMBER" : "198",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "rhel7-releng-141",
+                "java.vendor" : "Red Hat, Inc.",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/jenkins/jbosstools-forge_master"
+            }
+        },
+        "https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-central_master/latest/all/repo" : {
+            "timestamp" : 1632326491825,
+            "revision" : {
+                "HEAD" : "7da93e2d762b5c34d62be0a04023b4acbdbc3a5c",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git://github.com/jbosstools/jbosstools-central.git",
+                    "ref" : "master"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "11.0.12",
+                "user.dir" : "/jenkins/jbosstools-central_master",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "jbosstools-central_master",
+                "os.version" : "3.10.0-1127.el7.x86_64",
+                "BUILD_NUMBER" : "206",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "rhel7-releng-257",
+                "java.vendor" : "Red Hat, Inc.",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/jenkins/jbosstools-central_master"
+            }
+        },
+        "https://download.jboss.org/jbosstools/updates/requirements/xulrunner-1.9.2/" : {
+            "timestamp" : 1435679244000,
+            "revision" : {
+                "HEAD" : "2edce933f7d64efbb4d7a5b16be8dadae8de766e",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git://github.com/jbosstools/jbosstools-xulrunner.git",
+                    "ref" : "jbosstools-4.1.x"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "1.7.0",
+                "user.dir" : "/qa/local/hudson_workspace/workspace/xulrunner-1.9.2",
+                "os.arch" : "x86_64",
+                "RELEASE" : "Yes",
+                "BUILD_ID" : "2012-11-26_18-50-16",
+                "BUILD_ALIAS" : "Final",
+                "JOB_NAME" : "xulrunner-1.9.2",
+                "os.version" : "2.6.18-128.1.1.el5",
+                "BUILD_NUMBER" : "155",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "HOSTNAME" : "dsp06.mw.lab.eng.bos.redhat.com",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "2012-11-26_18-50-16-B155",
+                "WORKSPACE" : "/qa/local/hudson_workspace/workspace/xulrunner-1.9.2"
+            }
+        },
+        "https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-fuse_master/latest/all/repo" : {
+            "timestamp" : 1632303700721,
+            "revision" : {
+                "HEAD" : "b4331958a87d16eb023828b353047eeae3ef1352",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git://github.com/jbosstools/jbosstools-fuse.git",
+                    "ref" : "master"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "11.0.12",
+                "user.dir" : "/jenkins/jbosstools-fuse_master",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "jbosstools-fuse_master",
+                "os.version" : "3.10.0-1127.el7.x86_64",
+                "BUILD_NUMBER" : "260",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "rhel7-releng-large-82",
+                "java.vendor" : "Red Hat, Inc.",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/jenkins/jbosstools-fuse_master"
+            }
+        },
+        "https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-fabric8analytics_master/latest/all/repo" : {
+            "timestamp" : 1617290126130,
+            "revision" : {
+                "HEAD" : "eaf604e9271894590036c3255463dc0ae41bd54b",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git://github.com/fabric8-analytics/fabric8-analytics-devstudio-plugin.git",
+                    "ref" : "master"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "11.0.10",
+                "user.dir" : "/jenkins/jbosstools-fabric8analytics_master",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "jbosstools-fabric8analytics_master",
+                "os.version" : "3.10.0-1127.el7.x86_64",
+                "BUILD_NUMBER" : "3",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "rhel7-releng-186",
+                "java.vendor" : "Oracle Corporation",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/jenkins/jbosstools-fabric8analytics_master"
+            }
+        },
+        "https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-quarkus_master/latest/all/repo" : {
+            "timestamp" : 1631629268653,
+            "revision" : {
+                "HEAD" : "6f195c4abb0414ce0beada1fbf427469e95233af",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git://github.com/jbosstools/jbosstools-quarkus.git",
+                    "ref" : "master"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "11.0.12",
+                "user.dir" : "/jenkins/jbosstools-quarkus_master",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "jbosstools-quarkus_master",
+                "os.version" : "3.10.0-1127.el7.x86_64",
+                "BUILD_NUMBER" : "214",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "rhel7-releng-782",
+                "java.vendor" : "Red Hat, Inc.",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/jenkins/jbosstools-quarkus_master"
+            }
+        }
+    }
+}
