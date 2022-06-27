@@ -16,23 +16,23 @@
      https://dev-platform-jenkins.rhev-ci-vms.eng.rdu2.redhat.com/view/Devstudio/view/devstudio_master/job/jbosstools-buildflow_master/
 -->
 
-  <child location='http://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-base_master/'/>
-  <child location='http://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-central_master/'/>
-  <child location='http://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-fabric8analytics_master/'/>
-  <child location='http://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-forge_master/'/>
-  <child location='http://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-hibernate_master/'/>
-  <child location='http://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-quarkus_master/'/>
-  <child location='http://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-javaee_master/'/>
-  <child location='http://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-jst_master/'/>
-  <child location='http://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-openshift_master/'/>
-  <child location='http://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-livereload_master/'/>
-  <child location='http://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-server_master/'/>
+  <child location='https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-base_master/'/>
+  <child location='https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-central_master/'/>
+  <child location='https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-fabric8analytics_master/'/>
+  <child location='https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-forge_master/'/>
+  <child location='https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-hibernate_master/'/>
+  <child location='https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-quarkus_master/'/>
+  <child location='https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-javaee_master/'/>
+  <child location='https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-jst_master/'/>
+  <child location='https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-openshift_master/'/>
+  <child location='https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-livereload_master/'/>
+  <child location='https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-server_master/'/>
 
-  <child location='http://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-vpe_master/'/>
-  <child location='http://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-webservices_master/'/>
+  <child location='https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-vpe_master/'/>
+  <child location='https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-webservices_master/'/>
 
   <!-- ## UNCHANGED SINCE previous releases ## -->
-  <child location='http://download.jboss.org/jbosstools/updates/requirements/xulrunner-1.9.2/'/>
+  <child location='https://download.jboss.org/jbosstools/updates/requirements/xulrunner-1.9.2/'/>
 
 </children>
 </repository>
