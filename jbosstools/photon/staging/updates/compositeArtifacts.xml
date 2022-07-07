@@ -7,8 +7,8 @@
   </properties>
   <children size='4'>
   	<child location='https://download.jboss.org/jbosstools/targetplatforms/jbosstoolstarget/4.24.0.Final-SNAPSHOT/REPO/'/>
-  	<child location='http://download.jboss.org/jbosstools/photon/staging/updates/core/4.24.0.Final/'/>
-  	<child location='http://download.jboss.org/jbosstools/photon/staging/updates/central/4.24.0.Final/'/>
-  	<child location='http://download.jboss.org/jbosstools/targetplatforms/jbtcentraltarget/4.24.0.Final-SNAPSHOT/REPO/'/>
+  	<child location='https://download.jboss.org/jbosstools/photon/staging/updates/core/4.24.0.Final/'/>
+  	<child location='https://download.jboss.org/jbosstools/photon/staging/updates/central/4.24.0.Final/'/>
+  	<child location='https://download.jboss.org/jbosstools/targetplatforms/jbtcentraltarget/4.24.0.Final-SNAPSHOT/REPO/'/>
   </children>
 </repository>
