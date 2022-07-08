@@ -6,9 +6,9 @@
     <property name='p2.compressed' value='true'/>
   </properties>
   <children size='4'>
-  	<child location='http://download.jboss.org/jbosstools/targetplatforms/jbosstoolstarget/4.21.0.Final-SNAPSHOT/REPO/'/>
-  	<child location='http://download.jboss.org/jbosstools/static/photon/development/updates/core/4.21.0.Final/'/>
-  	<child location='http://download.jboss.org/jbosstools/static/photon/development/updates/central/4.21.0.Final/'/>
-  	<child location='http://download.jboss.org/jbosstools/targetplatforms/jbtcentraltarget/4.21.0.Final-SNAPSHOT/REPO/'/>
+  	<child location='https://download.jboss.org/jbosstools/targetplatforms/jbosstoolstarget/4.21.0.Final-SNAPSHOT/REPO/'/>
+  	<child location='https://download.jboss.org/jbosstools/static/photon/development/updates/core/4.21.0.Final/'/>
+  	<child location='https://download.jboss.org/jbosstools/static/photon/development/updates/central/4.21.0.Final/'/>
+  	<child location='https://download.jboss.org/jbosstools/targetplatforms/jbtcentraltarget/4.21.0.Final-SNAPSHOT/REPO/'/>
   </children>
 </repository>

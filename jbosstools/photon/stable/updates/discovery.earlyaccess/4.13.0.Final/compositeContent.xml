@@ -6,10 +6,10 @@
     <property name='p2.compressed' value='true'/>
   </properties>
   <children size='5'>
-  	<child location='http://download.jboss.org/jbosstools/targetplatforms/jbosstoolstarget/4.13.0.Final-SNAPSHOT/REPO/'/>
-  	<child location='http://download.jboss.org/jbosstools/static/photon/stable/updates/core/4.13.0.Final/'/>
-  	<child location='http://download.jboss.org/jbosstools/static/photon/stable/updates/central/4.13.0.Final/'/>
-  	<child location='http://download.jboss.org/jbosstools/targetplatforms/jbtcentraltarget/4.13.0.Final-SNAPSHOT/REPO/'/>
-  	<child location='http://download.jboss.org/jbosstools/targetplatforms/jbtearlyaccesstarget/4.13.0.Final-SNAPSHOT/REPO/'/>
+  	<child location='https://download.jboss.org/jbosstools/targetplatforms/jbosstoolstarget/4.13.0.Final-SNAPSHOT/REPO/'/>
+  	<child location='https://download.jboss.org/jbosstools/static/photon/stable/updates/core/4.13.0.Final/'/>
+  	<child location='https://download.jboss.org/jbosstools/static/photon/stable/updates/central/4.13.0.Final/'/>
+  	<child location='https://download.jboss.org/jbosstools/targetplatforms/jbtcentraltarget/4.13.0.Final-SNAPSHOT/REPO/'/>
+  	<child location='https://download.jboss.org/jbosstools/targetplatforms/jbtearlyaccesstarget/4.13.0.Final-SNAPSHOT/REPO/'/>
   </children>
 </repository>
