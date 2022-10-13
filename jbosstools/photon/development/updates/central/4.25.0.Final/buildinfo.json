@@ -1,0 +1,60 @@
+{
+    "timestamp" : 1665046725896,
+    "revision" : {
+        "HEAD" : "7000f2ff7a9ae28b937ac6b896505f86cfa29a97",
+        "currentBranch" : "HEAD",
+        "knownReferences" : [{
+            "name" : "origin",
+            "url" : "git@github.com:jbosstools/jbosstools-build-sites",
+            "ref" : "main"
+        }]
+    },
+    "properties" : {
+        "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+        "java.version" : "17.0.4.1",
+        "user.dir" : "/jenkins/jbosstools-build-sites.aggregate.child-sites_master/jdk/openjdk-17/label_exp/rhel7-releng/projectName/central/sources/aggregate/central-site",
+        "os.arch" : "amd64",
+        "RELEASE" : "null",
+        "BUILD_ALIAS" : "null",
+        "JOB_NAME" : "jdk=openjdk-17,label_exp=rhel7-releng,projectName=central",
+        "os.version" : "3.10.0-1127.el7.x86_64",
+        "BUILD_NUMBER" : "null",
+        "TARGET_PLATFORM_VERSION" : "null",
+        "NODE_NAME" : "null",
+        "HOSTNAME" : "rhel7-releng-2029",
+        "java.vendor" : "Red Hat, Inc.",
+        "os.name" : "Linux",
+        "ZIPSUFFIX" : "null",
+        "WORKSPACE" : "/jenkins/jbosstools-build-sites.aggregate.child-sites_master/jdk/openjdk-17/label_exp/rhel7-releng/projectName/central/sources/aggregate/central-site"
+    },
+    "upstream" : {"https://download.jboss.org/jbosstools/photon/snapshots/updates/core/master/" : {
+        "timestamp" : 1664956980545,
+        "revision" : {
+            "HEAD" : "7000f2ff7a9ae28b937ac6b896505f86cfa29a97",
+            "currentBranch" : "HEAD",
+            "knownReferences" : [{
+                "name" : "origin",
+                "url" : "git@github.com:jbosstools/jbosstools-build-sites",
+                "ref" : "main"
+            }]
+        },
+        "properties" : {
+            "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+            "java.version" : "17.0.4.1",
+            "user.dir" : "/jenkins/jbosstools-build-sites.aggregate.site_master",
+            "os.arch" : "amd64",
+            "RELEASE" : "null",
+            "BUILD_ALIAS" : "null",
+            "JOB_NAME" : "jbosstools-build-sites.aggregate.site_master",
+            "os.version" : "3.10.0-1127.el7.x86_64",
+            "BUILD_NUMBER" : "1713",
+            "TARGET_PLATFORM_VERSION" : "null",
+            "NODE_NAME" : "null",
+            "HOSTNAME" : "rhel7-releng-1754",
+            "java.vendor" : "Red Hat, Inc.",
+            "os.name" : "Linux",
+            "ZIPSUFFIX" : "null",
+            "WORKSPACE" : "/jenkins/jbosstools-build-sites.aggregate.site_master"
+        }
+    }}
+}
