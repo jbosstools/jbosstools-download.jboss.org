@@ -1,0 +1,154 @@
+{
+    "timestamp" : 1670839340207,
+    "revision" : {
+        "HEAD" : "bee7d00974af7327770192abf136e026a4bdb982",
+        "currentBranch" : "HEAD",
+        "knownReferences" : [{
+            "name" : "origin",
+            "url" : "git@github.com:jbosstools/jbosstools-fuse-extras",
+            "ref" : "main"
+        }]
+    },
+    "properties" : {
+        "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+        "java.version" : "17.0.5",
+        "user.dir" : "/jenkins/jbosstools-fuse-extras_master",
+        "os.arch" : "amd64",
+        "RELEASE" : "null",
+        "BUILD_ALIAS" : "null",
+        "JOB_NAME" : "jbosstools-fuse-extras_master",
+        "os.version" : "3.10.0-1127.el7.x86_64",
+        "BUILD_NUMBER" : "70",
+        "TARGET_PLATFORM_VERSION" : "null",
+        "NODE_NAME" : "null",
+        "HOSTNAME" : "rhel7-releng-large-759",
+        "java.vendor" : "Red Hat, Inc.",
+        "os.name" : "Linux",
+        "ZIPSUFFIX" : "null",
+        "WORKSPACE" : "/jenkins/jbosstools-fuse-extras_master"
+    },
+    "upstream" : {
+        "http://tooling.fuse-qe.eng.rdu2.redhat.com/p2/fuse.sap.updatesite/7.6.0/latest/all/repo/" : {
+            "timestamp" : 1579159827990,
+            "revision" : {
+                "HEAD" : "7f1445525a2562cf57d7f2627ce3882f9ddef492",
+                "currentBranch" : "refs/heads/7.x.redhat-7-x",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git@github.com:jboss-fuse/fuse-components.git",
+                    "ref" : "7.x.redhat-7-x"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "1.8.0_112",
+                "user.dir" : "/home/jenkins/workspace/fuse-components-camel-sap-7-x-checkin",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ID" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "null",
+                "os.version" : "3.10.0-1062.1.2.el7.x86_64",
+                "BUILD_NUMBER" : "null",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "fuse-jenkins-4645",
+                "java.vendor" : "Oracle Corporation",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/home/jenkins/workspace/fuse-components-camel-sap-7-x-checkin"
+            }
+        },
+        "http://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-fuse_master/latest/all/repo/" : "Build info file not accessible: org.jboss.dmr.stream.ModelException: Unexpected EOF while reading DMR stream",
+        "https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-base_master/latest/all/repo" : {
+            "timestamp" : 1669300580383,
+            "revision" : {
+                "HEAD" : "a846735c77dc89027e27d9324c09299bca5d0ea2",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git@github.com:jbosstools/jbosstools-base",
+                    "ref" : "main"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "17.0.5",
+                "user.dir" : "/jenkins/jbosstools-base_master",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "jbosstools-base_master",
+                "os.version" : "3.10.0-1127.el7.x86_64",
+                "BUILD_NUMBER" : "688",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "rhel7-releng-403",
+                "java.vendor" : "Red Hat, Inc.",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/jenkins/jbosstools-base_master"
+            }
+        },
+        "https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-server_master/latest/all/repo" : {
+            "timestamp" : 1670623488019,
+            "revision" : {
+                "HEAD" : "5c964ffa58be41e14c1215635292001c89c94685",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git@github.com:jbosstools/jbosstools-server",
+                    "ref" : "main"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "17.0.5",
+                "user.dir" : "/jenkins/jbosstools-server_master",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "jbosstools-server_master",
+                "os.version" : "3.10.0-1127.el7.x86_64",
+                "BUILD_NUMBER" : "695",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "rhel7-releng-509",
+                "java.vendor" : "Red Hat, Inc.",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/jenkins/jbosstools-server_master"
+            }
+        },
+        "https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-central_master/latest/all/repo" : {
+            "timestamp" : 1669443089794,
+            "revision" : {
+                "HEAD" : "1ae479c7455db955ffaa5c83211b6c52afdc7dc8",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git@github.com:jbosstools/jbosstools-central",
+                    "ref" : "main"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "17.0.5",
+                "user.dir" : "/jenkins/jbosstools-central_master",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "jbosstools-central_master",
+                "os.version" : "3.10.0-1127.el7.x86_64",
+                "BUILD_NUMBER" : "651",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "rhel7-releng-514",
+                "java.vendor" : "Red Hat, Inc.",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/jenkins/jbosstools-central_master"
+            }
+        }
+    }
+}
