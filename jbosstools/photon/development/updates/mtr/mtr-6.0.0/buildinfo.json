@@ -1,0 +1,122 @@
+{
+    "timestamp" : 1678767921315,
+    "revision" : {
+        "HEAD" : "8a8a7c947587320790f7f816a5589975564f2adc",
+        "currentBranch" : "HEAD",
+        "knownReferences" : [{
+            "name" : "origin",
+            "url" : "git@github.com:windup/windup-eclipse-plugin",
+            "ref" : "master"
+        }]
+    },
+    "properties" : {
+        "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+        "java.version" : "11.0.18",
+        "user.dir" : "/jenkins/windup-eclipse-plugin-release",
+        "os.arch" : "amd64",
+        "RELEASE" : "null",
+        "BUILD_ALIAS" : "null",
+        "JOB_NAME" : "null",
+        "os.version" : "3.10.0-1127.el7.x86_64",
+        "BUILD_NUMBER" : "null",
+        "TARGET_PLATFORM_VERSION" : "null",
+        "NODE_NAME" : "null",
+        "HOSTNAME" : "rhel7-releng-38653",
+        "java.vendor" : "Red Hat, Inc.",
+        "os.name" : "Linux",
+        "ZIPSUFFIX" : "null",
+        "WORKSPACE" : "/jenkins/windup-eclipse-plugin-release"
+    },
+    "upstream" : {
+        "https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-base_master/latest/all/repo" : {
+            "timestamp" : 1678729269900,
+            "revision" : {
+                "HEAD" : "b1ed17339228baddb596de4bb8ceab222d519d1a",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git@github.com:jbosstools/jbosstools-base",
+                    "ref" : "main"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "17.0.6",
+                "user.dir" : "/jenkins/jbosstools-base_master",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "jbosstools-base_master",
+                "os.version" : "3.10.0-1127.el7.x86_64",
+                "BUILD_NUMBER" : "804",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "rhel7-releng-38634",
+                "java.vendor" : "Red Hat, Inc.",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/jenkins/jbosstools-base_master"
+            }
+        },
+        "https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-forge_master/latest/all/repo" : {
+            "timestamp" : 1665762552831,
+            "revision" : {
+                "HEAD" : "e76e86ded064de639ec4bb8f4a56af6f9de58afb",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git@github.com:jbosstools/jbosstools-forge",
+                    "ref" : "main"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "17.0.4.1",
+                "user.dir" : "/jenkins/jbosstools-forge_master",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "jbosstools-forge_master",
+                "os.version" : "3.10.0-1127.el7.x86_64",
+                "BUILD_NUMBER" : "580",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "rhel7-releng-3310",
+                "java.vendor" : "Red Hat, Inc.",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/jenkins/jbosstools-forge_master"
+            }
+        },
+        "https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-central_master/latest/all/repo" : {
+            "timestamp" : 1678712042642,
+            "revision" : {
+                "HEAD" : "d91765b7622c428a053c96bf15bbfbf1330bcf33",
+                "currentBranch" : "HEAD",
+                "knownReferences" : [{
+                    "name" : "origin",
+                    "url" : "git@github.com:jbosstools/jbosstools-central",
+                    "ref" : "main"
+                }]
+            },
+            "properties" : {
+                "TARGET_PLATFORM_VERSION_MAXIMUM" : "null",
+                "java.version" : "17.0.6",
+                "user.dir" : "/jenkins/jbosstools-central_master",
+                "os.arch" : "amd64",
+                "RELEASE" : "null",
+                "BUILD_ALIAS" : "null",
+                "JOB_NAME" : "jbosstools-central_master",
+                "os.version" : "3.10.0-1127.el7.x86_64",
+                "BUILD_NUMBER" : "764",
+                "TARGET_PLATFORM_VERSION" : "null",
+                "NODE_NAME" : "null",
+                "HOSTNAME" : "rhel7-releng-38609",
+                "java.vendor" : "Red Hat, Inc.",
+                "os.name" : "Linux",
+                "ZIPSUFFIX" : "null",
+                "WORKSPACE" : "/jenkins/jbosstools-central_master"
+            }
+        }
+    }
+}
