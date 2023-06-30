@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 from optparse import OptionParser
@@ -36,14 +37,14 @@ buildTypes_d = {'snapshots': options.snapshotsRegex, 'staging': options.stagingR
 fulllines_d = {}
 productversions_d = {}
 
-print ""
-print "[INFO] Loaded properties:"
-if options.outputFile is not None: print "[INFO] outputFile       = " + options.outputFile
-if options.snapshotsRegex is not None: print "[INFO] snapshotsRegex   = " + options.snapshotsRegex
-if options.stagingRegex is not None: print "[INFO] stagingRegex     = " + options.stagingRegex
-if options.developmentRegex is not None: print "[INFO] developmentRegex = " + options.developmentRegex
-if options.stableRegex is not None: print "[INFO] stableRegex      = " + options.stableRegex
-print ""
+print("")
+print("[INFO] Loaded properties:")
+if options.outputFile is not None: print("[INFO] outputFile       = " + options.outputFile)
+if options.snapshotsRegex is not None: print("[INFO] snapshotsRegex   = " + options.snapshotsRegex)
+if options.stagingRegex is not None: print("[INFO] stagingRegex     = " + options.stagingRegex)
+if options.developmentRegex is not None: print("[INFO] developmentRegex = " + options.developmentRegex)
+if options.stableRegex is not None: print("[INFO] stableRegex      = " + options.stableRegex)
+print("")
 
 # split line and store in fulllines_d and productversions_d
 # also check for dupes and fail if any found
@@ -55,23 +56,18 @@ def storeLines(lineFixed, line, fname):
         if not pair[0] in fulllines_d:
             fulllines_d[pair[0]] = pair[1].rstrip()
         elif pair[0][:1] == "#": # comment block
-            print "[WARNING] Commented key " + pair[0] + " already defined"
+            print("[WARNING] Commented key " + pair[0] + " already defined")
         else:
             if lineFixed != line:
                 pairBefore = line.split("=")
-                print "[ERROR] Transformed key " + pair[0] + " (was: " + pairBefore[0] + ") already defined as:"
+                print("[ERROR] Transformed key " + pair[0] + " (was: " + pairBefore[0] + ") already defined as:")
             else:
-                print "[ERROR] Unchanged key " + pair[0] + " already defined as:"
-            print "[ERROR] " + fulllines_d[pair[0]]
-            print "[ERROR] Duplicate key found reading file:"
+                print("[ERROR] Unchanged key " + pair[0] + " already defined as:")
+            print("[ERROR] " + fulllines_d[pair[0]])
+            print("[ERROR] Duplicate key found reading file:")
             exit(str(fname))
 
         triple = pair[0].split("|") # jboss.discovery.earlyaccess.list.url|devstudio|10.3.0.AM1
-
-        # check that if stableRegex is defined, all snapshot, staging, or development URLs with GA or Final are commented out
-        if options.stableRegex and not pair[0].startswith("#") and (triple[2].count(".Final") or triple[2].count(".GA")):
-            print "[ERROR] Need to comment out lines with " + triple[1] + "|" + triple[2] + " from file:"
-            exit(str(fname))
 
         # store version = jbosstools|jboss.discovery.directory.url and version = devstudio|jboss.central.webpage.url key pairs; dupes are OK here
         if len(triple) > 1 and (triple[0].startswith("jboss.fuse") or triple[0].startswith("jboss.discovery") or triple[0].startswith("jboss.central")): # store only the central/discovery keys
@@ -80,14 +76,14 @@ def storeLines(lineFixed, line, fname):
             else:
                 productversions_d[triple[2]][triple[0]] = triple[1]
             if options.debug:
-                print "[DEBUG] Store: productversions_d[ " + triple[2] + " ] = { " + triple[0] + ": " + triple[1] + " }"
+                print("[DEBUG] Store: productversions_d[ " + triple[2] + " ] = { " + triple[0] + ": " + triple[1] + " }")
 
 # merge regex changes into .merged files
 for fname in filenames:
     with open(dir_path + os.sep + fname) as infile:
         outfile = open(dir_path + os.sep + fname + '.merged', 'w')
         if options.debug:
-            print "[DEBUG] Reading properties from: " + fname
+            print("[DEBUG] Reading properties from: " + fname)
         for line in infile:
             linePrinted = 0 # have we printed the file?
             fileType=re.sub('ide-config.current-(.+)-fragment.properties', r"\1", fname) # snapshots
@@ -98,7 +94,7 @@ for fname in filenames:
                     for regexpair in regexpairs:
                         regex = regexpair.split(",") # 4.4.2.Final -> 4.4.3.AM1
                         if options.debug:
-                            print "[DEBUG] " + regexpair
+                            print("[DEBUG] " + regexpair)
                         lineFixed = re.sub(regex[0], regex[1], lineFixed)
                     storeLines(lineFixed, line, infile)
                     outfile.write(lineFixed)
@@ -118,20 +114,20 @@ for fname in filenames:
 
 # for each group of keys (for a given prod|version) check for correct # of keys - should be 6 keys or more
 countBlock = 0
-for version in sorted(productversions_d.iterkeys()):
+for version in sorted(productversions_d.keys()):
     countBlock += 1
     countInner = 0
     if len(productversions_d[version]) != 6 and len(productversions_d[version]) != 8 :
         errMsg = "[ERROR] Expected 6 or 8 keys for jboss.*|*|" + version + ", but got: " + str(len(productversions_d[version])) + \
             " - check your src/main/ide.config.*-fragment.properties files"
-        print errMsg
+        print(errMsg)
         for key in sorted(productversions_d[version].iterkeys()):
             countInner += 1
             if options.debug:
-                print "[DEBUG] [" + str(countBlock).zfill(2) + ", " + str(countInner).zfill(2) + "] " + version + " => " + \
-                    key + " => " + productversions_d[version][key]
+                print("[DEBUG] [" + str(countBlock).zfill(2) + ", " + str(countInner).zfill(2) + "] " + version + " => " + \
+                    key + " => " + productversions_d[version][key])
         if options.debug:
-            print ""
+            print("")
         exit (errMsg)
 
 # Finally, if everything went well above, write changes to output file, ide-config.properties

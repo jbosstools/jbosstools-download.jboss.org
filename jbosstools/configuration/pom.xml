@@ -26,31 +26,26 @@
 	<properties>
 		<!-- pythonOptions: use -X to enable debugging -->
 		<pythonOptions></pythonOptions>
-		<pythonExecutable>python2</pythonExecutable>
+		<pythonExecutable>python3</pythonExecutable>
 
 		<version_jbt_PREV_GA>4.5.1.Final</version_jbt_PREV_GA>
 		<version_jbt_PREV>4.5.1.Final</version_jbt_PREV>
 		<version_jbt>4.5.2.AM1</version_jbt>
 		<version_jbt_NEXT>4.5.2.AM2</version_jbt_NEXT>
 
-		<versionWithRespin_ds_PREV_GA>11.1.0.GA</versionWithRespin_ds_PREV_GA>
-		<versionWithRespin_ds_PREV>11.1.0.GA</versionWithRespin_ds_PREV>
-		<versionWithRespin_ds>11.2.0.AM1</versionWithRespin_ds>
-		<versionWithRespin_ds_NEXT>11.2.0.AM2</versionWithRespin_ds_NEXT>
 		<!-- buildType can be staging, development, or stable, to define which profile to run
 				 and therefore which changes to apply to the ide-config.properties fragments while merging them -->
 		<buildType>staging</buildType>
 		<!-- use these to toggle a section from being commented or uncommented -->
 		<COMMENTED>^jboss.discovery,#jboss.discovery;^jboss.central,#jboss.central;^jboss.fuse,#jboss.fuse</COMMENTED>
 		<COMMENT_JBT>^jboss.discovery(.+${version_jbt}=.+),#jboss.discovery\1;^jboss.central(.+${version_jbt}=.+),#jboss.central\1;^jboss.fuse(.+${version_jbt}=.+),#jboss.fuse\1</COMMENT_JBT>
-		<COMMENT_DS>^jboss.discovery(.+${versionWithRespin_ds}=.+),#jboss.discovery\1;^jboss.central(.+${versionWithRespin_ds}=.+),#jboss.central\1;^jboss.fuse(.+${versionWithRespin_ds}=.+),#jboss.fuse\1</COMMENT_DS>
 		<UNCOMMENT>^#jboss.discovery,jboss.discovery;^#jboss.central,jboss.central;^#jboss.fuse,jboss.fuse</UNCOMMENT>
 		<TRIM_SUFFIX>(a|b|c|d)=http,=http</TRIM_SUFFIX>
 		<abcd></abcd>
-		<C>${version_jbt},${version_jbt_NEXT};${versionWithRespin_ds},${versionWithRespin_ds_NEXT}</C>
-		<S>${version_jbt_PREV},${version_jbt};${versionWithRespin_ds_PREV},${versionWithRespin_ds}</S>
+		<C>${version_jbt},${version_jbt_NEXT}</C>
+		<S>${version_jbt_PREV},${version_jbt}</S>
 		<D>${version_jbt_PREV},${version_jbt}</D>
-		<R>${version_jbt_PREV_GA},${version_jbt};${versionWithRespin_ds_PREV_GA},${versionWithRespin_ds}</R>
+		<R>${version_jbt_PREV_GA},${version_jbt}</R>
 	</properties>
 
 <!-- test cases:
