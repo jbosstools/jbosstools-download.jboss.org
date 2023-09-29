@@ -27,9 +27,7 @@
   <child location='https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-openshift_master/'/>
   <child location='https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-livereload_master/'/>
   <child location='https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-server_master/'/>
-
   <child location='https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-vpe_master/'/>
-  <child location='https://download.jboss.org/jbosstools/photon/snapshots/builds/jbosstools-webservices_master/'/>
 
   <!-- ## UNCHANGED SINCE previous releases ## -->
   <child location='https://download.jboss.org/jbosstools/updates/requirements/xulrunner-1.9.2/'/>
