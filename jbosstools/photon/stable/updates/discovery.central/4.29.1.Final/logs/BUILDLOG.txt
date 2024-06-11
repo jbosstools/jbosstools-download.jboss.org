@@ -1,0 +1,205 @@
+Started by user Stephane Bouchet
+Running as SYSTEM
+[EnvInject] - Loading node environment variables.
+Building remotely on rhel7-releng-1118 (rhel7-devstudio-releng rhel7-releng) in workspace /jenkins/jbosstools-discovery_master
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+The recommended git tool is: NONE
+using credential devstudio-release
+Cloning the remote Git repository
+Cloning repository git@github.com:jbosstools/jbosstools-discovery
+ > git init /jenkins/jbosstools-discovery_master/sources # timeout=10
+Fetching upstream changes from git@github.com:jbosstools/jbosstools-discovery
+ > git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+using GIT_SSH to set credentials key used to push commits and tags via devstudio-release user to jbosstools repos
+[INFO] Currently running in a labeled security context
+[INFO] Currently SELinux is 'enforcing' on the host
+ > /usr/bin/chcon --type=ssh_home_t /jenkins/jbosstools-discovery_master/sources@tmp/jenkins-gitclient-ssh17854734742744575698.key
+Verifying host key using manually-configured host key entries
+ > git fetch --tags --progress git@github.com:jbosstools/jbosstools-discovery +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:jbosstools/jbosstools-discovery # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse origin/main^{commit} # timeout=10
+Checking out Revision 17254e3eed4320433cbcc7e01c4c62ab8b671faa (origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 17254e3eed4320433cbcc7e01c4c62ab8b671faa # timeout=10
+Commit message: " #comment bump up to parent pom version = 4.29.1.Final-SNAPSHOT #close"
+ > git rev-list --no-walk 17254e3eed4320433cbcc7e01c4c62ab8b671faa # timeout=10
+[jbosstools-discovery_master] $ /bin/bash +x /tmp/jenkins9619525416054340911.sh
+compute values from parent pom
+[EnvInject] - Injecting environment variables from a build step.
+[EnvInject] - Injecting as environment variables the properties file path '/jenkins/jbosstools-discovery_master/discovery.properties'
+[EnvInject] - Variables injected successfully.
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.9.4/apache-maven-3.9.4-bin.zip to /jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven3-latest on rhel7-releng-1118
+[jbosstools-discovery_master] $ /jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven3-latest/bin/mvn -f /jenkins/jbosstools-discovery_master/sources/jbosstools/org.jboss.tools.central.discovery/pom.xml -Dversion_jbt=4.29.1.Final -DbuildType=staging "-DMAVEN_FLAGS=-B -U -fae -ntp -P hudson,multiple.target,maximum -DskipBaselineComparison=true" -DBUILD_NUMBER=1822 -DEXTRAS_SITE=https://download.jboss.org/jbosstools/photon/staging/updates/central/4.29.1.Final/,https://download.jboss.org/jbosstools/targetplatforms/jbtcentraltarget/4.28.0.AM1-SNAPSHOT/REPO/ -DUPDATE_SITE=https://download.jboss.org/jbosstools/photon/staging/updates/core/4.29.1.Final/ -Dmaven.test.failure.ignore=true -Ddownload.cache.directory=/home/hudson/static_build_env/devstudio/download-cache -DJOB_NAME=jbosstools-discovery_master -Dmaven.repo.local=/jenkins/jbosstools-discovery_master/.repository clean install -B -U -fae -ntp -P hudson,multiple.target,maximum -DskipBaselineComparison=true
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] Tycho Version:  4.0.4 (868454bf476f18ad997abdfd7ef5f88a8fa2d67f)
+[INFO] Tycho Mode:     project
+[INFO] Tycho Builder:  maven
+[INFO] 
+[INFO] --< org.jboss.tools.central.plugins:org.jboss.tools.central.discovery >--
+[INFO] Building org.jboss.tools.central.discovery 4.28.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] ---------------------------[ eclipse-plugin ]---------------------------
+[INFO] Resolving target definition file:/jenkins/jbosstools-discovery_master/.repository/org/jboss/tools/targetplatforms/jbosstools-multiple/4.29.0.Final-SNAPSHOT/jbosstools-multiple-4.29.0.Final-SNAPSHOT-jbosstools-multiple.target for environments=[macosx/cocoa/x86_64, win32/win32/x86_64, linux/gtk/x86_64], include source mode=honor, referenced repository mode =ignore, execution environment=StandardEEResolutionHints [executionEnvironment=OSGi profile 'JavaSE-17' { source level: 17, target level: 17}], remote p2 repository options=org.eclipse.tycho.p2maven.DefaultProvisioningAgent@6371c6ee
+[INFO] ### Using TychoRepositoryTransport for remote P2 access ###
+[INFO]     Cache location:         /jenkins/jbosstools-discovery_master/.repository/.cache/tycho
+[INFO]     Transport mode:         online
+[INFO]     Http Transport type:    Java11Client
+[INFO]     Update mode:            forced
+[INFO]     Minimum cache duration: 60 minutes
+[INFO]       (you can configure this with -Dtycho.p2.transport.min-cache-minutes=<desired minimum cache duration>)
+[INFO] Resolving dependencies of MavenProject: org.jboss.tools.central.plugins:org.jboss.tools.central.discovery:4.28.0-SNAPSHOT @ /jenkins/jbosstools-discovery_master/sources/jbosstools/org.jboss.tools.central.discovery/pom.xml
+[INFO] Artifact org.bouncycastle:bcpg-jdk18on:jar:1.76 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [redhat-ea-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), redhat-ga-repository (https://maven.repository.redhat.com/ga/, default, releases), jboss-releases (https://repository.jboss.org/nexus/content/repositories/releases, default, releases+snapshots), jboss-snapshots-repository (https://repository.jboss.org/nexus/content/repositories/snapshots/, default, releases+snapshots), jboss-thirdparty-releases (https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/, default, releases+snapshots), jboss-ga-repository (https://maven.repository.redhat.com/ga/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.bouncycastle:bcpg-jdk18on:jar:1.76 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [redhat-ea-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), redhat-ga-repository (https://maven.repository.redhat.com/ga/, default, releases), jboss-releases (https://repository.jboss.org/nexus/content/repositories/releases, default, releases+snapshots), jboss-snapshots-repository (https://repository.jboss.org/nexus/content/repositories/snapshots/, default, releases+snapshots), jboss-thirdparty-releases (https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/, default, releases+snapshots), jboss-ga-repository (https://maven.repository.redhat.com/ga/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.bouncycastle:bcprov-jdk18on:jar:1.76 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [redhat-ea-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), redhat-ga-repository (https://maven.repository.redhat.com/ga/, default, releases), jboss-releases (https://repository.jboss.org/nexus/content/repositories/releases, default, releases+snapshots), jboss-snapshots-repository (https://repository.jboss.org/nexus/content/repositories/snapshots/, default, releases+snapshots), jboss-thirdparty-releases (https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/, default, releases+snapshots), jboss-ga-repository (https://maven.repository.redhat.com/ga/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.bouncycastle:bcprov-jdk18on:jar:1.76 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [redhat-ea-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), redhat-ga-repository (https://maven.repository.redhat.com/ga/, default, releases), jboss-releases (https://repository.jboss.org/nexus/content/repositories/releases, default, releases+snapshots), jboss-snapshots-repository (https://repository.jboss.org/nexus/content/repositories/snapshots/, default, releases+snapshots), jboss-thirdparty-releases (https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/, default, releases+snapshots), jboss-ga-repository (https://maven.repository.redhat.com/ga/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.osgi:org.osgi.service.prefs:jar:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [redhat-ea-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), redhat-ga-repository (https://maven.repository.redhat.com/ga/, default, releases), jboss-releases (https://repository.jboss.org/nexus/content/repositories/releases, default, releases+snapshots), jboss-snapshots-repository (https://repository.jboss.org/nexus/content/repositories/snapshots/, default, releases+snapshots), jboss-thirdparty-releases (https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/, default, releases+snapshots), jboss-ga-repository (https://maven.repository.redhat.com/ga/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.osgi:org.osgi.service.prefs:jar:1.1.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [redhat-ea-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), redhat-ga-repository (https://maven.repository.redhat.com/ga/, default, releases), jboss-releases (https://repository.jboss.org/nexus/content/repositories/releases, default, releases+snapshots), jboss-snapshots-repository (https://repository.jboss.org/nexus/content/repositories/snapshots/, default, releases+snapshots), jboss-thirdparty-releases (https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/, default, releases+snapshots), jboss-ga-repository (https://maven.repository.redhat.com/ga/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.osgi:osgi.annotation:jar:8.0.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [redhat-ea-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), redhat-ga-repository (https://maven.repository.redhat.com/ga/, default, releases), jboss-releases (https://repository.jboss.org/nexus/content/repositories/releases, default, releases+snapshots), jboss-snapshots-repository (https://repository.jboss.org/nexus/content/repositories/snapshots/, default, releases+snapshots), jboss-thirdparty-releases (https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/, default, releases+snapshots), jboss-ga-repository (https://maven.repository.redhat.com/ga/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.osgi:osgi.annotation:jar:8.0.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [redhat-ea-repository (https://maven.repository.redhat.com/earlyaccess/all/, default, releases), redhat-ga-repository (https://maven.repository.redhat.com/ga/, default, releases), jboss-releases (https://repository.jboss.org/nexus/content/repositories/releases, default, releases+snapshots), jboss-snapshots-repository (https://repository.jboss.org/nexus/content/repositories/snapshots/, default, releases+snapshots), jboss-thirdparty-releases (https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/, default, releases+snapshots), jboss-ga-repository (https://maven.repository.redhat.com/ga/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] 
+[INFO] --- clean:2.6.1:clean (default-clean) @ org.jboss.tools.central.discovery ---
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:build-qualifier (default-build-qualifier) @ org.jboss.tools.central.discovery ---
+[INFO] The project's OSGi version is 4.28.0.v20231012-1458
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:validate-id (default-validate-id) @ org.jboss.tools.central.discovery ---
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:validate-version (default-validate-version) @ org.jboss.tools.central.discovery ---
+[INFO] 
+[INFO] --- build-helper:3.2.0:regex-property (regex-property1) @ org.jboss.tools.central.discovery ---
+[INFO] 
+[INFO] --- build-helper:3.2.0:regex-property (regex-property2) @ org.jboss.tools.central.discovery ---
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (core-has-ui-deps) @ org.jboss.tools.central.discovery ---
+[INFO] Rule 0: org.jboss.tools.releng.CoreUIDependency passed
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (warn-no-snapshots-AMx) @ org.jboss.tools.central.discovery ---
+[INFO] Rule 0: org.jboss.tools.releng.NoSnapshotsAllowed passed
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-no-snapshots-Final) @ org.jboss.tools.central.discovery ---
+[INFO] 
+[INFO] --- target-platform-configuration:4.0.4:target-platform (default-target-platform) @ org.jboss.tools.central.discovery ---
+[INFO] 
+[INFO] --- tycho-compiler:4.0.4:validate-classpath (default-validate-classpath) @ org.jboss.tools.central.discovery ---
+[INFO] Resolving class path of org.jboss.tools.central.discovery
+[INFO] 
+[INFO] --- jacoco:0.8.10:prepare-agent (default) @ org.jboss.tools.central.discovery ---
+[INFO] argLine set to -javaagent:/jenkins/jbosstools-discovery_master/.repository/org/jacoco/org.jacoco.agent/0.8.10/org.jacoco.agent-0.8.10-runtime.jar=destfile=/jenkins/jbosstools-discovery_master/sources/jbosstools/org.jboss.tools.central.discovery/target/jacoco.exec,append=true
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ org.jboss.tools.central.discovery ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] Using 'ISO-8859-1' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /jenkins/jbosstools-discovery_master/sources/jbosstools/org.jboss.tools.central.discovery/src/main/resources
+[INFO] 
+[INFO] --- tycho-compiler:4.0.4:compile (default-compile) @ org.jboss.tools.central.discovery ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- tycho-bnd:4.0.4:process (default-process) @ org.jboss.tools.central.discovery ---
+[INFO] 
+[INFO] --- tycho-ds:4.0.4:declarative-services (default-declarative-services) @ org.jboss.tools.central.discovery ---
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ org.jboss.tools.central.discovery ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] Using 'ISO-8859-1' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /jenkins/jbosstools-discovery_master/sources/jbosstools/org.jboss.tools.central.discovery/src/test/resources
+[INFO] 
+[INFO] --- tycho-compiler:4.0.4:testCompile (default-testCompile) @ org.jboss.tools.central.discovery ---
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:update-consumer-pom (default-update-consumer-pom) @ org.jboss.tools.central.discovery ---
+[WARNING] 0 system scoped dependencies were mapped to maven artifacts, 20 were skipped
+[INFO] 
+[INFO] --- tycho-source:4.0.4:plugin-source (plugin-source) @ org.jboss.tools.central.discovery ---
+[INFO] Building jar: /jenkins/jbosstools-discovery_master/sources/jbosstools/org.jboss.tools.central.discovery/target/org.jboss.tools.central.discovery-4.28.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- tycho-packaging:4.0.4:package-plugin (default-package-plugin) @ org.jboss.tools.central.discovery ---
+[INFO] Building jar: /jenkins/jbosstools-discovery_master/sources/jbosstools/org.jboss.tools.central.discovery/target/org.jboss.tools.central.discovery-4.28.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2:4.0.4:p2-metadata-default (default-p2-metadata-default) @ org.jboss.tools.central.discovery ---
+[INFO] Adding repository https://download.jboss.org/jbosstools/photon/stable/updates
+[INFO] Adding repository https://download.jboss.org/jbosstools/photon/stable/updates
+[INFO] No baseline version MavenProject: org.jboss.tools.central.plugins:org.jboss.tools.central.discovery:4.28.0-SNAPSHOT @ /jenkins/jbosstools-discovery_master/sources/jbosstools/org.jboss.tools.central.discovery/.tycho-consumer-pom.xml
+[INFO] 
+[INFO] --- tycho-source:4.0.4:feature-source (feature-source) @ org.jboss.tools.central.discovery ---
+[INFO] 
+[INFO] --- repository-utils:4.0.5-SNAPSHOT:generate-repository-facade (generate-facade) @ org.jboss.tools.central.discovery ---
+[INFO] 
+[INFO] --- tycho-p2:4.0.4:p2-metadata (attached-p2-metadata) @ org.jboss.tools.central.discovery ---
+[INFO] No baseline version MavenProject: org.jboss.tools.central.plugins:org.jboss.tools.central.discovery:4.28.0-SNAPSHOT @ /jenkins/jbosstools-discovery_master/sources/jbosstools/org.jboss.tools.central.discovery/.tycho-consumer-pom.xml
+[WARNING] artifact org.jboss.tools.central.plugins:org.jboss.tools.central.discovery:xml:p2metadata:4.28.0-SNAPSHOT already attached, replace previous instance
+[WARNING] artifact org.jboss.tools.central.plugins:org.jboss.tools.central.discovery:xml:p2artifacts:4.28.0-SNAPSHOT already attached, replace previous instance
+[INFO] 
+[INFO] --- tycho-p2-extras:4.0.4:compare-version-with-baselines (default) @ org.jboss.tools.central.discovery ---
+[WARNING]  Parameter 'comparator' is read-only, must not be used in configuration
+[INFO] Execution was skipped
+[INFO] 
+[INFO] --- install:2.3.1:install (default-install) @ org.jboss.tools.central.discovery ---
+[INFO] Installing /jenkins/jbosstools-discovery_master/sources/jbosstools/org.jboss.tools.central.discovery/target/org.jboss.tools.central.discovery-4.28.0-SNAPSHOT.jar to /jenkins/jbosstools-discovery_master/.repository/org/jboss/tools/central/plugins/org.jboss.tools.central.discovery/4.28.0-SNAPSHOT/org.jboss.tools.central.discovery-4.28.0-SNAPSHOT.jar
+[INFO] Installing /jenkins/jbosstools-discovery_master/sources/jbosstools/org.jboss.tools.central.discovery/.tycho-consumer-pom.xml to /jenkins/jbosstools-discovery_master/.repository/org/jboss/tools/central/plugins/org.jboss.tools.central.discovery/4.28.0-SNAPSHOT/org.jboss.tools.central.discovery-4.28.0-SNAPSHOT.pom
+[INFO] Installing /jenkins/jbosstools-discovery_master/sources/jbosstools/org.jboss.tools.central.discovery/target/org.jboss.tools.central.discovery-4.28.0-SNAPSHOT-sources.jar to /jenkins/jbosstools-discovery_master/.repository/org/jboss/tools/central/plugins/org.jboss.tools.central.discovery/4.28.0-SNAPSHOT/org.jboss.tools.central.discovery-4.28.0-SNAPSHOT-sources.jar
+[INFO] Installing /jenkins/jbosstools-discovery_master/sources/jbosstools/org.jboss.tools.central.discovery/target/p2content.xml to /jenkins/jbosstools-discovery_master/.repository/org/jboss/tools/central/plugins/org.jboss.tools.central.discovery/4.28.0-SNAPSHOT/org.jboss.tools.central.discovery-4.28.0-SNAPSHOT-p2metadata.xml
+[INFO] Installing /jenkins/jbosstools-discovery_master/sources/jbosstools/org.jboss.tools.central.discovery/target/p2artifacts.xml to /jenkins/jbosstools-discovery_master/.repository/org/jboss/tools/central/plugins/org.jboss.tools.central.discovery/4.28.0-SNAPSHOT/org.jboss.tools.central.discovery-4.28.0-SNAPSHOT-p2artifacts.xml
+[INFO] 
+[INFO] --- tycho-p2:4.0.4:update-local-index (default-update-local-index) @ org.jboss.tools.central.discovery ---
+[INFO] 
+[INFO] --- antrun:3.0.0:run (install) @ org.jboss.tools.central.discovery ---
+[INFO] Executing tasks
+[INFO]     [mkdir] Created dir: /tmp/aggregate-site-build232551096
+[INFO]     [mkdir] Created dir: /jenkins/jbosstools-discovery_master/sources/jbosstools/org.jboss.tools.central.discovery/target/discovery-site/plugins
+[INFO]      [copy] Copying 1 file to /jenkins/jbosstools-discovery_master/sources/jbosstools/org.jboss.tools.central.discovery/target/discovery-site/plugins
+[INFO]    [delete] Deleting directory /tmp/aggregate-site-build232551096
+[INFO] Executed tasks
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  08:06 min
+[INFO] Finished at: 2024-05-22T11:42:56-04:00
+[INFO] ------------------------------------------------------------------------
+[jbosstools-discovery_master] $ /bin/bash +x /tmp/jenkins13542139207537301636.sh
+fetch publish/rsync.sh
+[jbosstools-discovery_master] $ /bin/bash +x /tmp/jenkins15028442163577561139.sh
+[DEBUG] BUILD_TIMESTAMP = 2024-05-22_15-34-46
+sftp> mkdir photon
+Couldn't create directory: Failure
+sftp> mkdir photon/staging
+Couldn't create directory: Failure
+sftp> mkdir photon/staging/builds
+Couldn't create directory: Failure
+sftp> mkdir photon/staging/builds/jbosstools-4.29.1.Final-build-discovery.central
+sftp> mkdir photon/staging/builds/jbosstools-4.29.1.Final-build-discovery.central/2024-05-22_15-34-46-B1822
+sftp> mkdir photon/staging/builds/jbosstools-4.29.1.Final-build-discovery.central/2024-05-22_15-34-46-B1822/all
+sftp> mkdir photon/staging/builds/jbosstools-4.29.1.Final-build-discovery.central/2024-05-22_15-34-46-B1822/all/repo
+[INFO] sftp /jenkins/jbosstools-discovery_master/sources/jbosstools/org.jboss.tools.central.discovery/target/discovery-site/ into tools@filemgmt.jboss.org:/downloads_htdocs/tools/photon/staging/builds/jbosstools-4.29.1.Final-build-discovery.central/2024-05-22_15-34-46-B1822/all/repo/...
+sftp> put -rp ./
+Entering ./
+Entering ./plugins
+sftp> quit
+[DEBUG] Symlink[BT] tools@filemgmt.jboss.org:/downloads_htdocs/tools/photon/staging/builds/jbosstools-4.29.1.Final-build-discovery.central/latest -> 2024-05-22_15-34-46-B1822
+Connected to filemgmt.jboss.org.
+Changing to: /downloads_htdocs/tools
+sftp> cd photon/staging/builds/jbosstools-4.29.1.Final-build-discovery.central/
+sftp> ln -s 2024-05-22_15-34-46-B1822/ latest
+sftp> mkdir logs
+sftp> put /tmp/tmp.9N0kJgKzKB/BUILDLOG.txt
+sftp> quit
+[DEBUG] BUILD_TIMESTAMP = 2024-05-22_15-34-46
+sftp> mkdir photon
+Couldn't create directory: Failure
+sftp> mkdir photon/staging
+Couldn't create directory: Failure
+sftp> mkdir photon/staging/updates
+Couldn't create directory: Failure
+sftp> mkdir photon/staging/updates/discovery.central
+Couldn't create directory: Failure
+sftp> mkdir photon/staging/updates/discovery.central/4.29.1.Final
+[INFO] sftp /jenkins/jbosstools-discovery_master/sources/jbosstools/org.jboss.tools.central.discovery/target/discovery-site/ into tools@filemgmt.jboss.org:/downloads_htdocs/tools/photon/staging/updates/discovery.central/4.29.1.Final/...
+sftp> put -rp ./
+Entering ./
+Entering ./plugins
+sftp> quit
